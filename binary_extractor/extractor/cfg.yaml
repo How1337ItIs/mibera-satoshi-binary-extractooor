@@ -1,0 +1,55 @@
+# Binary extraction configuration - Low-level image alchemy pipeline
+# All tunable parameters for the Satoshi poster analysis
+
+# Color space and channel selection
+use_color_space: HSV_S  # Try saturation channel instead of Lab_b
+
+# Background subtraction
+blur_sigma: 25  # Increased from 15 for stronger background removal
+
+# Thresholding method and parameters
+threshold:
+  method: adaptive  # Switch to adaptive for better local contrast
+  adaptive_C: 6  # Increased for better separation
+  sauvola_window_size: 15
+  sauvola_k: 0.2
+
+# Morphology
+morph_k: 3
+morph_iterations: 2
+use_mahotas_thin: false  # optional skeletonization
+
+# Grid detection (null = autodetect)
+row_pitch: null
+col_pitch: null
+row0: 50  # Adjusted origin offset
+col0: 20
+
+# Cell classification thresholds
+bit_hi: 0.65  # Slightly reduced for better 1 detection
+bit_lo: 0.35  # Slightly increased for better 0 detection
+
+# Overlay detection
+overlay:
+  saturation_threshold: 40  # S < 40
+  value_threshold: 180      # V > 180
+  cell_coverage_threshold: 0.2  # >20% of cell covered = overlay
+  dilate_pixels: 2  # dilate overlay mask by N pixels
+
+# Template matching fallback
+template_match: true  # Enable template matching for better accuracy
+tm_thresh: 0.4  # Slightly more lenient threshold
+
+# Debug output
+save_debug: true
+debug_artifacts:
+  - bw_mask.png
+  - silver_mask.png
+  - grid_overlay.png
+  - cells_color.png
+  - cyan_channel.png
+  - gaussian_subtracted.png
+
+# Output settings
+output:
+  csv_encoding: 'utf-8' 

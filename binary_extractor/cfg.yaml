@@ -1,0 +1,33 @@
+bit_hi: 0.70
+bit_lo: 0.35
+blur_sigma: 15
+col0: 10
+col_pitch: null
+debug_artifacts:
+- bw_mask.png
+- silver_mask.png
+- grid_overlay.png
+- cells_color.png
+- cyan_channel.png
+- gaussian_subtracted.png
+morph_iterations: 2
+morph_k: 3
+output:
+  csv_encoding: utf-8
+overlay:
+  cell_coverage_threshold: 0.2
+  dilate_pixels: 3
+  saturation_threshold: 25
+  value_threshold: 190
+row0: 40
+row_pitch: null
+save_debug: true
+template_match: true
+threshold:
+  adaptive_C: 2
+  method: adaptive
+  sauvola_k: 0.2
+  sauvola_window_size: 15
+tm_thresh: 0.45
+use_color_space: HSV_S
+use_mahotas_thin: false
