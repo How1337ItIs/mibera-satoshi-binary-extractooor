@@ -6,62 +6,65 @@
 - **Status**: CRITICAL - Low extraction accuracy (~30-40% estimated)
 - **Problem**: Grid alignment issues, poor thresholds, overconfident claims
 - **Goal**: Extract binary digits from Satoshi poster background for crypto analysis
+- **New Strategy**: Region-based accuracy approach (see `REGION_BASED_ACCURACY_PROCESS.md`)
 
 ---
 
 ## 👥 Agent Roles & Responsibilities
 
 ### 🖌️ Cursor Agent
-**Primary Focus**: Code editing and iterative development
+**Primary Focus**: Visual validation and manual parameter tuning
 
-**Strengths**:
-- Real-time code editing and debugging
-- Interactive parameter adjustment
-- Quick iteration cycles
-- Code refactoring and optimization
+**Native Capabilities**:
+- Real-time visual feedback during code editing
+- Interactive parameter adjustment with immediate preview
+- Quick iteration cycles for visual alignment
+- Manual inspection and validation workflows
 
-**Recommended Tasks**:
-1. **Parameter Tuning**: Interactively adjust grid parameters in code
-2. **Code Refinement**: Improve extraction algorithms through rapid iteration
-3. **Debugging**: Fix issues found during extraction runs
-4. **Code Organization**: Refactor and optimize extraction pipeline
-5. **Exhaustive Logging & Documentation**: Log every change, experiment, technique, research need, setback, breakthrough, and rationale in markdown/status files for transparency and reproducibility.
+**Optimized Responsibilities**:
+1. **Visual Grid Alignment**: Use visual debugging tools to manually align grid parameters
+2. **Region-by-Region Tuning**: Adjust parameters for specific poster regions based on visual inspection
+3. **Quality Control**: Manually verify extracted cells against original poster
+4. **Parameter Documentation**: Log all visual observations and parameter changes
+5. **Immediate Feedback Loop**: Test→View→Adjust→Repeat cycles for rapid optimization
 
 ---
 
 ### 🧠 Claude Code Agent
-**Primary Focus**: Analysis, research, and systematic problem-solving
+**Primary Focus**: Strategic analysis and systematic methodology
 
-**Strengths**:
-- Complex algorithm design and analysis
-- Research methodology and documentation
-- Pattern recognition and validation
-- System architecture and planning
+**Native Capabilities**:
+- Complex problem decomposition and analysis
+- Research methodology design and implementation
+- Pattern recognition across large datasets
+- Strategic planning and process optimization
+- Comprehensive documentation and reporting
 
-**Recommended Tasks**:
-1. **Research Framework**: Design and implement systematic extraction research
-2. **Validation Systems**: Create ground truth datasets and accuracy measurement
-3. **Algorithm Analysis**: Analyze extraction methods and identify improvements
-4. **Documentation**: Create comprehensive methodology documentation
-5. **Exhaustive Logging & Documentation**: Record all research, experiments, findings, open questions, setbacks, breakthroughs, and context in markdown/status files.
+**Optimized Responsibilities**:
+1. **Process Design**: Create systematic approaches for region-based extraction
+2. **Accuracy Analysis**: Develop validation frameworks and metrics
+3. **Problem Categorization**: Analyze different types of extraction challenges
+4. **Strategic Planning**: Design multi-phase approaches for complete extraction
+5. **Research Documentation**: Create comprehensive process guides and findings reports
 
 ---
 
 ### ⚡ Codex Agent
 **Primary Focus**: Implementation and automation
 
-**Strengths**:
+**Native Capabilities**:
 - Fast code generation and implementation
-- Utility functions and tools
-- Automated testing and validation
-- Data processing and analysis
+- Automated testing and validation pipelines
+- Batch processing and data handling
+- Utility function creation
+- System integration and tooling
 
-**Recommended Tasks**:
-1. **Implementation**: Build specific extraction functions and utilities
-2. **Automation**: Create automated testing and validation pipelines
-3. **Data Processing**: Handle image processing and bit extraction
-4. **Tools**: Build helper functions and analysis scripts
-5. **Exhaustive Logging & Documentation**: Log all code changes, automation steps, test results, setbacks, breakthroughs, and context in markdown/status files.
+**Optimized Responsibilities**:
+1. **Implementation**: Build region-specific extraction functions and utilities
+2. **Automation**: Create automated testing for parameter validation
+3. **Batch Processing**: Handle large-scale extraction across poster regions
+4. **Tool Creation**: Build helper functions for manual validation workflows
+5. **Pipeline Integration**: Automate the region-based extraction process
 
 ---
 
@@ -133,9 +136,9 @@
 ### 🔥 Critical (Do First)
 | Task | Best Agent | Estimated Time | Dependencies |
 |------|------------|---------------|--------------|
-| Grid parameter calibration | Cursor | 2-3 hours | Interactive parameter tuning |
-| Systematic research framework | Claude | 2-3 hours | Research methodology |
-| Automated validation pipeline | Codex | 1-2 hours | Grid parameters |
+| Visual grid alignment for high-contrast regions | Cursor | 2-3 hours | Region-based accuracy process |
+| Region-based extraction strategy implementation | Claude | 1-2 hours | Process documentation complete |
+| Automated region-specific parameter testing | Codex | 1-2 hours | Grid parameters per region |
 
 ### ⚠️ High Priority
 | Task | Best Agent | Estimated Time | Dependencies |
