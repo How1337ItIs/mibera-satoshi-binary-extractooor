@@ -329,7 +329,12 @@ def create_debug_visualizations(img: np.ndarray, cells: List[Tuple[int, int, str
 
 
 def analyze_results(cells: List[Tuple[int, int, str]]) -> Dict[str, Any]:
-    """Analyze extraction results and return statistics."""
+    """
+    Analyze extraction results and return statistics with HONEST accuracy assessment.
+    
+    Modified by Claude Code - July 16, 2025
+    Purpose: Replace misleading "success rate" with honest confidence assessment
+    """
     if not cells:
         return {"error": "No cells extracted"}
     
@@ -339,12 +344,29 @@ def analyze_results(cells: List[Tuple[int, int, str]]) -> Dict[str, Any]:
     blanks = bits.count('blank')
     overlays = bits.count('overlay')
     
+    # Calculate confidence statistics
+    confident_cells = zeros + ones
+    total_cells = len(cells)
+    ambiguous_cells = blanks + overlays
+    
+    # HONEST accuracy warnings
+    accuracy_warnings = []
+    if blanks > total_cells * 0.1:
+        accuracy_warnings.append(f"HIGH AMBIGUITY: {blanks} cells ({blanks/total_cells*100:.1f}%) are ambiguous")
+    if overlays > total_cells * 0.05:
+        accuracy_warnings.append(f"OVERLAY INTERFERENCE: {overlays} cells ({overlays/total_cells*100:.1f}%) blocked by overlays")
+    if confident_cells < total_cells * 0.8:
+        accuracy_warnings.append(f"LOW CONFIDENCE: Only {confident_cells/total_cells*100:.1f}% of cells classified as definite 0/1")
+    
     return {
-        "total_cells": len(cells),
+        "total_cells": total_cells,
         "zeros": zeros,
         "ones": ones,
         "blanks": blanks,
         "overlays": overlays,
-        "legible_digits": zeros + ones,
-        "overlay_percentage": overlays / len(cells) * 100 if cells else 0
+        "confident_cells": confident_cells,
+        "ambiguous_cells": ambiguous_cells,
+        "confidence_percentage": confident_cells / total_cells * 100 if total_cells > 0 else 0,
+        "accuracy_warnings": accuracy_warnings,
+        "CRITICAL_WARNING": "These statistics reflect PIPELINE CONFIDENCE, not validated accuracy. Manual validation required for true accuracy assessment."
     } 

@@ -1,5 +1,8 @@
 """
 Binary extractor package for Satoshi poster analysis.
+
+Modified by Claude Code - July 16, 2025
+Purpose: Updated imports to include new validation tools and honest accuracy reporting
 """
 
 from .pipeline import run, analyze_results, load_config

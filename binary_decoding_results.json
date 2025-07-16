@@ -1,0 +1,56 @@
+{
+  "binary_sequence": "11111111111111111111111111111110111111111111111111111111111111111111111111101111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111101111111111111111111011111111111111001111111111111111111011111111111110111111111111111111111111111111010111100000000000000000000000000000011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111100000011111111111111111111111111000110011111001111111111111111111111111111111111111111111001000000000000111111001101010001111111111111111111111111110111111111111111111111111111111111111111111111",
+  "length": 752,
+  "ascii_attempts": [
+    [
+      "ASCII",
+      "\\xff\\xff\\xff\\xfe\\xff\\xff\\xff\\xff\\xff\\xef\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xf7\\xff\\xff\\x7f\\xfe\\x7f\\xff\\xf7\\xff\\xdf\\xff\\xff\\xff\\xaf\\0\\0\\0\\x03\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xff\\xfc\\x0f\\xff\\xff\\xfcg\\xcf\\xff\\xff\\xff\\xff\\xfe@\\x03\\xf3Q\\xff\\xff\\xff\\xdf\\xff\\xff\\xff\\xff\\xff\\0",
+      80
+    ]
+  ],
+  "hex_analysis": [
+    [
+      "HEX",
+      "FFFFFFFEFFFFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7FFFF7FFE7FFFF7FFDFFFFFFFAF00000003FFFFFFFFFFFFFFFFFFFFFFFC0FFFFFFC67CFFFFFFFFFFE4003F351FFFFFFDFFFFFFFFFFF0",
+      [
+        [
+          "FFFFFFFF",
+          "All ones",
+          12
+        ]
+      ]
+    ]
+  ],
+  "base64_attempts": [
+    [
+      "BASE64",
+      "/////v//////7/////////////////////////////////////////f//3/+f//3/9////+vAAAAA////////////////A////xnz//////+QAPzUf///9///////wA=",
+      null
+    ]
+  ],
+  "crypto_analysis": [
+    [
+      "CRYPTO",
+      {
+        "MD5": "e3880b254c6a0cbfe6a113047b34440e",
+        "SHA1": "8be3d6691e800da41f1f63ef99cd546e6ae1b74d",
+        "SHA256": "509ca0151b827e0ac67216a39e935d15ece7ff4fad44bd9c70da6b004c44f7a1"
+      },
+      [
+        128,
+        192,
+        256,
+        512,
+        1024,
+        2048
+      ]
+    ]
+  ],
+  "timestamp_analysis": [
+    [
+      "TIMESTAMP",
+      null,
+      null
+    ]
+  ]
+}

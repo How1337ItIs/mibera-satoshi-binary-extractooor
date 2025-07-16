@@ -1,0 +1,513 @@
+{
+  "timestamp": "2025-07-16T14:14:09.863463",
+  "image_path": "satoshi_poster.png",
+  "image_shape": [
+    1666,
+    1232,
+    3
+  ],
+  "analysis_summary": {
+    "total_regions": 9,
+    "easy_regions": 9,
+    "moderate_regions": 0,
+    "hard_regions": 0,
+    "total_estimated_cells": 2106
+  },
+  "regions": [
+    {
+      "region_id": "R1",
+      "coordinates": {
+        "x1": 0,
+        "y1": 0,
+        "x2": 410,
+        "y2": 555
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 1.3183915622940014e-05,
+        "lighting_consistency": 0.43755151331523123
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    },
+    {
+      "region_id": "R2",
+      "coordinates": {
+        "x1": 410,
+        "y1": 0,
+        "x2": 820,
+        "y2": 555
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 0.0003691496374423204,
+        "lighting_consistency": 0.31226076364638855
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    },
+    {
+      "region_id": "R3",
+      "coordinates": {
+        "x1": 820,
+        "y1": 0,
+        "x2": 1232,
+        "y2": 555
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 0.0,
+        "lighting_consistency": 0.492949868887016
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    },
+    {
+      "region_id": "R4",
+      "coordinates": {
+        "x1": 0,
+        "y1": 555,
+        "x2": 410,
+        "y2": 1110
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 0.00012304987914744012,
+        "lighting_consistency": 0.4532738537117811
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    },
+    {
+      "region_id": "R5",
+      "coordinates": {
+        "x1": 410,
+        "y1": 555,
+        "x2": 820,
+        "y2": 1110
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 0.002065480114260602,
+        "lighting_consistency": 0.45170778926604893
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    },
+    {
+      "region_id": "R6",
+      "coordinates": {
+        "x1": 820,
+        "y1": 555,
+        "x2": 1232,
+        "y2": 1110
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 4.3733053441791306e-06,
+        "lighting_consistency": 0.4688040217238587
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    },
+    {
+      "region_id": "R7",
+      "coordinates": {
+        "x1": 0,
+        "y1": 1110,
+        "x2": 410,
+        "y2": 1666
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 0.00017108264607825933,
+        "lighting_consistency": 0.4512703526326949
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    },
+    {
+      "region_id": "R8",
+      "coordinates": {
+        "x1": 410,
+        "y1": 1110,
+        "x2": 820,
+        "y2": 1666
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 0.000188629584137568,
+        "lighting_consistency": 0.6627597436503845
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    },
+    {
+      "region_id": "R9",
+      "coordinates": {
+        "x1": 820,
+        "y1": 1110,
+        "x2": 1232,
+        "y2": 1666
+      },
+      "characteristics": {
+        "contrast_level": "high",
+        "extraction_difficulty": "easy",
+        "estimated_cells": 234,
+        "overlay_density": 0.0,
+        "lighting_consistency": 0.4590714100618335
+      },
+      "recommended_params": {
+        "bit_hi": 0.75,
+        "bit_lo": 0.3,
+        "blur_sigma": 10,
+        "col0": 10,
+        "col_pitch": null,
+        "debug_artifacts": [
+          "bw_mask.png",
+          "silver_mask.png",
+          "grid_overlay.png",
+          "cells_color.png",
+          "cyan_channel.png",
+          "gaussian_subtracted.png"
+        ],
+        "morph_iterations": 2,
+        "morph_k": 3,
+        "output": {
+          "csv_encoding": "utf-8"
+        },
+        "overlay": {
+          "saturation_threshold": 20,
+          "value_threshold": 200,
+          "cell_coverage_threshold": 0.15
+        },
+        "row0": 40,
+        "row_pitch": null,
+        "save_debug": true,
+        "template_match": true,
+        "threshold": {
+          "adaptive_C": 2,
+          "method": "adaptive",
+          "sauvola_k": 0.2,
+          "sauvola_window_size": 15
+        },
+        "tm_thresh": 0.45,
+        "use_color_space": "HSV_S",
+        "use_mahotas_thin": false
+      },
+      "notes": "Auto-analyzed on 2025-07-16 14:14:08"
+    }
+  ]
+}

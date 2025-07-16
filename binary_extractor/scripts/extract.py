@@ -81,8 +81,18 @@ def main():
         table.add_row("Ones", str(analysis["ones"]))
         table.add_row("Blanks", str(analysis["blanks"]))
         table.add_row("Overlays", str(analysis["overlays"]))
-        table.add_row("Legible Digits", str(analysis["legible_digits"]))
-        table.add_row("Overlay %", f"{analysis['overlay_percentage']:.1f}%")
+        table.add_row("Confident Cells", str(analysis["confident_cells"]))
+        table.add_row("Confidence %", f"{analysis['confidence_percentage']:.1f}%")
+        
+        # Show accuracy warnings
+        if analysis.get("accuracy_warnings"):
+            console.print("\n[bold red]ACCURACY WARNINGS:[/bold red]")
+            for warning in analysis["accuracy_warnings"]:
+                console.print(f"WARNING: {warning}")
+        
+        # Show critical warning
+        if analysis.get("CRITICAL_WARNING"):
+            console.print(f"\n[bold red]CRITICAL: {analysis['CRITICAL_WARNING']}[/bold red]")
         
         console.print(table)
         

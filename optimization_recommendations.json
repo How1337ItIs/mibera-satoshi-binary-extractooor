@@ -1,0 +1,25 @@
+{
+  "permissive_threshold": [
+    150,
+    100
+  ],
+  "strict_threshold": [
+    170,
+    80
+  ],
+  "default_threshold": [
+    160,
+    90
+  ],
+  "grid_pitch": [
+    15,
+    12
+  ],
+  "offset_variations": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ]
+}

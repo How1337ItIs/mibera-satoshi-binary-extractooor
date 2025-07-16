@@ -1,0 +1,31 @@
+{
+  "original_bias": {
+    "ones_percentage": 90.02659574468085,
+    "zeros_percentage": 9.97340425531915
+  },
+  "balanced_thresholds": {
+    "high_threshold": 93.0,
+    "low_threshold": 82.26530612244898
+  },
+  "balanced_results": [
+    {
+      "region_id": 0,
+      "total_cells": 364,
+      "zeros": 147,
+      "ones": 170,
+      "ambiguous": 47,
+      "clear_cells": 317,
+      "clarity_rate": 87.08791208791209
+    },
+    {
+      "region_id": 2,
+      "total_cells": 230,
+      "zeros": 88,
+      "ones": 116,
+      "ambiguous": 26,
+      "clear_cells": 204,
+      "clarity_rate": 88.69565217391305
+    }
+  ],
+  "recommendation": "Use balanced thresholds and validate with manual inspection"
+}

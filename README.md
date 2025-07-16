@@ -1,3 +1,9 @@
+# Satoshi Poster Binary Extraction Project
+
+**Created by:** Claude Code Agent  
+**Date:** July 16, 2025  
+**Purpose:** Project overview and setup instructions
+
 ---
 
 ## Linux/Headless Setup (Codex/CI Compatible)

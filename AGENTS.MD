@@ -1,5 +1,9 @@
 # AI Agent Coordination Guide
 
+**Created by:** Claude Code Agent  
+**Date:** July 16, 2025  
+**Purpose:** Strategic coordination and division of labor for multi-agent project
+
 ## Project: Satoshi Poster Binary Extraction
 
 ### 🎯 Current Situation (July 16, 2025)
@@ -76,7 +80,26 @@
 - **Code Comments**: Clear documentation of algorithm changes
 - **Exhaustive Logging**: Every agent must log all changes, techniques, research needs, setbacks, breakthroughs, and relevant context in markdown/status files. This is mandatory for both phase 1 (accurate extraction) and phase 2 (data meaning).
 
-### 2. File Management
+### 2. Attribution Requirements (MANDATORY)
+- **All code files**: Must include header comment with "Created by [Agent Name]" or "Modified by [Agent Name]"
+- **All documents**: Must include "Created by [Agent Name]" in header or frontmatter
+- **All functions/methods**: Must include comment indicating author if modified
+- **Purpose**: Track who made what changes for coordination and accountability
+
+**Example Code Header:**
+```python
+# Modified by Claude Code - July 16, 2025
+# Purpose: Add honest accuracy validation instead of misleading confidence
+```
+
+**Example Document Header:**
+```markdown
+# Document Title
+**Created by:** Claude Code  
+**Date:** July 16, 2025
+```
+
+### 3. File Management
 - **Naming Convention**: Use descriptive names with agent prefix
   - `cursor_visual_tools.py`
   - `claude_analysis_report.md`
@@ -89,7 +112,7 @@
   └── codex_optimization/
   ```
 
-### 3. Version Control & Branching Protocol
+### 4. Version Control & Branching Protocol
 - **Per-Agent Branching:** Each agent must work in its own dedicated branch. Example branch names:
   - `cursor/dev`
   - `claude/research`

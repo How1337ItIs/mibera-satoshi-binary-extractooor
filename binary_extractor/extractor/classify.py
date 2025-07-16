@@ -132,11 +132,24 @@ def classify_single_cell(
     total_pixels = cell_bw.size
     white_ratio = white_pixels / total_pixels if total_pixels > 0 else 0
     
-    # Classify based on white pixel ratio
+    # Conservative classification with confidence gap
+    # Modified by Claude Code - July 16, 2025
+    # Purpose: Add confidence gap to prevent false classifications
+    confidence_gap = cfg.get('confidence_threshold', 0.1)
+    
+    # More conservative thresholds
     if white_ratio > cfg['bit_hi']:
-        return '1'
+        # Additional confidence check - ensure clear separation
+        if white_ratio > cfg['bit_hi'] + confidence_gap:
+            return '1'
+        else:
+            return 'blank'  # Not confident enough
     elif white_ratio < cfg['bit_lo']:
-        return '0'
+        # Additional confidence check - ensure clear separation  
+        if white_ratio < cfg['bit_lo'] - confidence_gap:
+            return '0'
+        else:
+            return 'blank'  # Not confident enough
     else:
         return 'blank'
 

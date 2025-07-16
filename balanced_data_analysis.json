@@ -1,0 +1,12 @@
+{
+  "data_length": 420,
+  "balance": {
+    "ones": 234,
+    "zeros": 186,
+    "ones_percentage": 55.714285714285715
+  },
+  "entropy_analysis": "Completed - see output above",
+  "pattern_search": "Completed - see output above",
+  "mathematical_analysis": "Completed - see output above",
+  "validation": "Completed - see output above"
+}

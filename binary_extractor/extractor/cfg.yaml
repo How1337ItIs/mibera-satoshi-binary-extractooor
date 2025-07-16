@@ -1,5 +1,10 @@
 # Binary extraction configuration - Low-level image alchemy pipeline
 # All tunable parameters for the Satoshi poster analysis
+# Modified by Claude Code - July 16, 2025
+# 
+# ⚠️  DEPRECATED: These parameters use WRONG GRID ALIGNMENT
+# Current working method: See corrected_extraction.py with 15×12 pitch
+# This config produces ~10% accuracy due to grid misalignment
 
 # Color space and channel selection
 use_color_space: HSV_S  # Try saturation channel instead of Lab_b
@@ -25,9 +30,10 @@ col_pitch: null
 row0: 50  # Adjusted origin offset
 col0: 20
 
-# Cell classification thresholds
-bit_hi: 0.7  # Return to original conservative setting
-bit_lo: 0.3  # Return to original conservative setting
+# Cell classification thresholds - CONSERVATIVE for accuracy
+bit_hi: 0.8  # Higher threshold for 1s (more conservative)
+bit_lo: 0.2  # Lower threshold for 0s (more conservative)
+confidence_threshold: 0.1  # Minimum confidence gap to classify as 0/1
 
 # Overlay detection
 overlay:
