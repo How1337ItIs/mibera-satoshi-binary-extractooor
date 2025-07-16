@@ -86,10 +86,45 @@
   └── codex_optimization/
   ```
 
-### 3. Version Control
-- **Branching**: Each agent works on separate features
-- **Commits**: Include agent name and brief description
-- **Merging**: Coordinate through main integration
+### 3. Version Control & Branching Protocol
+- **Per-Agent Branching:** Each agent must work in its own dedicated branch. Example branch names:
+  - `cursor/dev`
+  - `claude/research`
+  - `codex/automation`
+- **Branch Workflow:**
+  1. Before starting work, check out or create your agent’s branch.
+  2. Commit all changes, logs, and documentation to your branch.
+  3. When ready to integrate, open a pull request (PR) to `main` (or a shared integration branch).
+  4. PRs must include:
+     - A summary of changes and rationale
+     - Links to relevant logs/markdown files
+     - Any context needed for reviewers
+  5. After review and testing, merge into `main`.
+- **Conflict Resolution:** Coordinate with other agents to resolve merge conflicts and ensure smooth integration.
+
+---
+
+## 📝 Pull Request Template
+
+```
+### Summary of Changes
+- Briefly describe what was changed and why
+
+### Techniques/Experiments Implemented
+- List new methods, algorithms, or experiments
+
+### Research Needs / Open Questions
+- Note any unresolved issues or areas for further investigation
+
+### Setbacks / Breakthroughs
+- Document any major obstacles or key successes
+
+### Relevant Logs/Documentation
+- Link to markdown/status files with detailed context
+
+### Reviewer Notes
+- Any special instructions or context for reviewers
+```
 
 ---
 
