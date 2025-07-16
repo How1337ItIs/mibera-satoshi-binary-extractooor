@@ -1,0 +1,7 @@
+{
+  "tests/test_pipeline.py::TestPipeline::test_load_config": true,
+  "tests/test_pipeline.py::TestPipeline::test_pitch_detection": true,
+  "tests/test_pipeline.py::TestPipeline::test_cell_classification": true,
+  "tests/test_pipeline.py::TestConfiguration::test_config_parameters": true,
+  "tests/test_pipeline.py::TestConfiguration::test_classification_thresholds": true
+}

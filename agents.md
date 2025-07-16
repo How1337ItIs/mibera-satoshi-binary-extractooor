@@ -6,6 +6,15 @@
 
 ---
 
+## Image Requirements (Poster File)
+
+- The original poster image **must** be present at the project root as `satoshi (1).png`.
+- For the benefit of agents, scripts, or operating systems that are easily confused by spaces and parentheses (looking at you, Codex), a Linux-friendly copy is also provided as `satoshi_poster.png`.
+- If your code or agent can't "see" the original file, just use `satoshi_poster.png` instead. (We won't judge. Much.)
+- Both files are identical; use whichever your environment prefers.
+
+---
+
 ## Project: Satoshi Poster Binary Extraction
 
 ### 🎯 Current Situation (July 16, 2025)

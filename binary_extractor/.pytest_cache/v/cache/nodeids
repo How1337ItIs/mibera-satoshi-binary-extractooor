@@ -1,0 +1,12 @@
+[
+  "tests/test_pipeline.py::TestConfiguration::test_classification_thresholds",
+  "tests/test_pipeline.py::TestConfiguration::test_config_parameters",
+  "tests/test_pipeline.py::TestPipeline::test_analyze_results",
+  "tests/test_pipeline.py::TestPipeline::test_cell_classification",
+  "tests/test_pipeline.py::TestPipeline::test_csv_output_format",
+  "tests/test_pipeline.py::TestPipeline::test_grid_detection",
+  "tests/test_pipeline.py::TestPipeline::test_load_config",
+  "tests/test_pipeline.py::TestPipeline::test_minimum_digits_extracted",
+  "tests/test_pipeline.py::TestPipeline::test_pipeline_basic",
+  "tests/test_pipeline.py::TestPipeline::test_pitch_detection"
+]

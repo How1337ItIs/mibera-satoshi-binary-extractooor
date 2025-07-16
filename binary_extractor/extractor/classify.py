@@ -48,21 +48,24 @@ def classify_cell_bits(
         if not templates or '0' not in templates or '1' not in templates:
             raise RuntimeError("Template matching selected but templates not found in tests/data/")
 
-    # First pass: conservative thresholds
-    bit_lo_1 = 0.35
-    bit_hi_1 = 0.70
-    # Second pass: looser thresholds
-    bit_lo_2 = 0.25
-    bit_hi_2 = 0.55
+    # Get config-driven parameters
+    cell_row_half = cfg.get('cell_window', {}).get('row_half', 5)
+    cell_col_half = cfg.get('cell_window', {}).get('col_half', 2)
+    thresholds = cfg.get('dual_pass_thresholds', {})
+    bit_lo_1 = thresholds.get('bit_lo_1', 0.35)
+    bit_hi_1 = thresholds.get('bit_hi_1', 0.70)
+    bit_lo_2 = thresholds.get('bit_lo_2', 0.25)
+    bit_hi_2 = thresholds.get('bit_hi_2', 0.55)
+
     # Store cell results and intermediate blank mask
     cell_results = {}
     blank_cells = []
     for i, row in enumerate(rows):
         for j, col in enumerate(cols):
-            row_start = max(0, row - 5)
-            row_end = min(bw_image.shape[0], row + 5)
-            col_start = max(0, col - 2)
-            col_end = min(bw_image.shape[1], col + 2)
+            row_start = max(0, row - cell_row_half)
+            row_end = min(bw_image.shape[0], row + cell_row_half)
+            col_start = max(0, col - cell_col_half)
+            col_end = min(bw_image.shape[1], col + cell_col_half)
             cell_bw = bw_image[row_start:row_end, col_start:col_end]
             cell_overlay = overlay_mask[row_start:row_end, col_start:col_end]
             cell_img = original_img[row_start:row_end, col_start:col_end]

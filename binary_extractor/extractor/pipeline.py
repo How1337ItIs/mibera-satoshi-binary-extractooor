@@ -127,13 +127,13 @@ def apply_threshold(channel: np.ndarray, cfg: Dict[str, Any]) -> np.ndarray:
         Binary image (0/255)
     """
     method = cfg['threshold']['method']
-    
+    adaptive_block_size = cfg.get('adaptive_block_size', 35)  # Configurable block size
     if method == 'otsu':
         _, bw = cv2.threshold(channel, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
     elif method == 'adaptive':
         bw = cv2.adaptiveThreshold(
             channel, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
-            cv2.THRESH_BINARY, 35, cfg['threshold']['adaptive_C'])
+            cv2.THRESH_BINARY, adaptive_block_size, cfg['threshold']['adaptive_C'])
     elif method == 'sauvola':
         bw = filters.threshold_sauvola(
             channel, window_size=cfg['threshold']['sauvola_window_size'],
@@ -227,7 +227,8 @@ def run(image_path: Path, out_dir: Path, cfg: dict = None):
         print(f"[PIPELINE] Thresholding done")
         # Step 4: Morphology
         kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (cfg['morph_k'], cfg['morph_k']))
-        bw = cv2.morphologyEx(bw, cv2.MORPH_OPEN, kernel, iterations=1)
+        morph_open_iterations = cfg.get('morph_open_iterations', 1)
+        bw = cv2.morphologyEx(bw, cv2.MORPH_OPEN, kernel, iterations=morph_open_iterations)
         bw = cv2.morphologyEx(bw, cv2.MORPH_CLOSE, kernel, iterations=cfg['morph_iterations'])
         print(f"[PIPELINE] Morphology done")
         # Optional skeletonization
