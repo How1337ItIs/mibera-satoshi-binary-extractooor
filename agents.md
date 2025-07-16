@@ -91,6 +91,13 @@
 - **Commits**: Include agent name and brief description
 - **Merging**: Coordinate through main integration
 
+### 4. Lightweight Conflict Avoidance Practices
+- **Announce file/feature work:** Agents should note in `project_status.json` (or a shared log) when they begin work on a file or feature that might overlap with others.
+- **Prefer separate modules:** When possible, agents should work on different modules, scripts, or config sections to minimize overlap.
+- **Check for recent changes:** Before starting major edits, agents should pull the latest changes from `main` and review recent commits/PRs in other agent branches.
+- **Early communication:** If overlap is likely, agents should communicate and coordinate early to avoid unnecessary conflicts.
+- **Keep it simple:** These practices are meant to be lightweight and practical, not burdensome—aimed at reducing merge conflicts while maintaining rapid iteration.
+
 ---
 
 ## 🎯 Priority Task Matrix
