@@ -1,5 +1,11 @@
 # AI Agent Coordination Guide
 
+---
+
+**NOTE:** The original Satoshi poster image is expected at the project root as `satoshi (1).png`. All extraction and validation depend on this file being present. If the image is missing, the pipeline and all analysis will fail.
+
+---
+
 ## Project: Satoshi Poster Binary Extraction
 
 ### 🎯 Current Situation (July 16, 2025)
