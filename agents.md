@@ -11,97 +11,57 @@
 
 ## 👥 Agent Roles & Responsibilities
 
-### 🎨 Cursor Agent
-**Primary Focus**: Visual inspection and manual calibration
+### 🖌️ Cursor Agent
+**Primary Focus**: Code editing and iterative development
 
 **Strengths**:
-- Interactive visual debugging
-- Real-time code editing
-- UI/UX improvements
-- Manual parameter tuning
+- Real-time code editing and debugging
+- Interactive parameter adjustment
+- Quick iteration cycles
+- Code refactoring and optimization
 
 **Recommended Tasks**:
-1. **Grid Calibration**: Visually inspect `satoshi (1).png` and manually adjust grid parameters
-2. **Threshold Tuning**: Test different threshold values on sample regions
-3. **Visual Validation**: Create side-by-side comparisons of extracted vs actual bits
-4. **Interactive Tools**: Build visual interfaces for parameter adjustment
-
-**Starting Commands**:
-```bash
-python startup.py cursor
-python visual_validation.py
-```
-
-**Key Files to Focus On**:
-- `visual_validation.py` - Visual inspection tools
-- `binary_extractor/extractor/cfg.yaml` - Configuration parameters
-- `test_results/visual_validation/` - Validation outputs
+1. **Parameter Tuning**: Interactively adjust grid parameters in code
+2. **Code Refinement**: Improve extraction algorithms through rapid iteration
+3. **Debugging**: Fix issues found during extraction runs
+4. **Code Organization**: Refactor and optimize extraction pipeline
+5. **Exhaustive Logging & Documentation**: Log every change, experiment, technique, research need, setback, breakthrough, and rationale in markdown/status files for transparency and reproducibility.
 
 ---
 
 ### 🧠 Claude Code Agent
-**Primary Focus**: Algorithm development and analysis
+**Primary Focus**: Analysis, research, and systematic problem-solving
 
 **Strengths**:
-- Complex algorithm design
-- Pattern recognition
-- Documentation and reporting
-- System architecture
+- Complex algorithm design and analysis
+- Research methodology and documentation
+- Pattern recognition and validation
+- System architecture and planning
 
 **Recommended Tasks**:
-1. **Algorithm Refinement**: Improve grid detection and bit classification
-2. **Quality Metrics**: Develop proper accuracy measurement systems
-3. **Documentation**: Create comprehensive analysis reports
-4. **Pattern Analysis**: Analyze extracted patterns for cryptographic significance
-
-**Starting Commands**:
-```bash
-python startup.py claude
-python refined_extraction_method.py
-```
-
-**Key Files to Focus On**:
-- `refined_extraction_method.py` - Advanced algorithms
-- `binary_extractor/extractor/pipeline.py` - Core extraction logic
-- `analyze_binary_data.py` - Pattern analysis
+1. **Research Framework**: Design and implement systematic extraction research
+2. **Validation Systems**: Create ground truth datasets and accuracy measurement
+3. **Algorithm Analysis**: Analyze extraction methods and identify improvements
+4. **Documentation**: Create comprehensive methodology documentation
+5. **Exhaustive Logging & Documentation**: Record all research, experiments, findings, open questions, setbacks, breakthroughs, and context in markdown/status files.
 
 ---
 
 ### ⚡ Codex Agent
-**Primary Focus**: Code implementation and optimization
+**Primary Focus**: Implementation and automation
 
 **Strengths**:
-- Fast code generation
-- Utility functions
-- Performance optimization
-- Data processing pipelines
+- Fast code generation and implementation
+- Utility functions and tools
+- Automated testing and validation
+- Data processing and analysis
 
 **Recommended Tasks**:
-1. **Grid Detection**: Implement robust grid finding algorithms
-2. **Preprocessing**: Create image enhancement and filtering functions
-3. **Validation Pipeline**: Build automated accuracy testing systems
-4. **Performance**: Optimize extraction speed and memory usage
-
-**Starting Commands**:
-```bash
-python startup.py codex
-python -c "from startup import codex_quickstart; codex_quickstart()"
-```
-
-**Key Functions to Implement**:
-```python
-def interactive_grid_calibration():
-    """Interactive grid parameter adjustment"""
-    
-def validate_extraction_accuracy():
-    """Systematic accuracy validation"""
-    
-def optimize_thresholds():
-    """Automatic threshold optimization"""
-    
-def create_ground_truth_dataset():
-    """Manual annotation for validation"""
-```
+1. **Implementation**: Build specific extraction functions and utilities
+2. **Automation**: Create automated testing and validation pipelines
+3. **Data Processing**: Handle image processing and bit extraction
+4. **Tools**: Build helper functions and analysis scripts
+5. **Exhaustive Logging & Documentation**: Log all code changes, automation steps, test results, setbacks, breakthroughs, and context in markdown/status files.
 
 ---
 
@@ -111,6 +71,7 @@ def create_ground_truth_dataset():
 - **Status Updates**: Update `project_status.json` after major changes
 - **Documentation**: Use markdown files for sharing findings
 - **Code Comments**: Clear documentation of algorithm changes
+- **Exhaustive Logging**: Every agent must log all changes, techniques, research needs, setbacks, breakthroughs, and relevant context in markdown/status files. This is mandatory for both phase 1 (accurate extraction) and phase 2 (data meaning).
 
 ### 2. File Management
 - **Naming Convention**: Use descriptive names with agent prefix
@@ -137,16 +98,16 @@ def create_ground_truth_dataset():
 ### 🔥 Critical (Do First)
 | Task | Best Agent | Estimated Time | Dependencies |
 |------|------------|---------------|--------------|
-| Grid parameter calibration | Cursor | 2-3 hours | Visual inspection |
-| Accuracy validation system | Codex | 1-2 hours | Grid parameters |
-| Threshold optimization | Claude | 2-3 hours | Validation system |
+| Grid parameter calibration | Cursor | 2-3 hours | Interactive parameter tuning |
+| Systematic research framework | Claude | 2-3 hours | Research methodology |
+| Automated validation pipeline | Codex | 1-2 hours | Grid parameters |
 
 ### ⚠️ High Priority
 | Task | Best Agent | Estimated Time | Dependencies |
 |------|------------|---------------|--------------|
-| Visual inspection tools | Cursor | 1-2 hours | None |
-| Quality metrics | Claude | 1-2 hours | None |
-| Performance optimization | Codex | 2-3 hours | Working extraction |
+| Code refactoring and optimization | Cursor | 1-2 hours | Working extraction |
+| Ground truth dataset creation | Claude | 2-3 hours | Manual annotation system |
+| Batch processing utilities | Codex | 2-3 hours | Core extraction working |
 
 ### 📋 Medium Priority
 | Task | Best Agent | Estimated Time | Dependencies |
@@ -163,16 +124,19 @@ def create_ground_truth_dataset():
 - [ ] Grid parameters correctly aligned (visual inspection)
 - [ ] Extraction accuracy > 80% (validated)
 - [ ] Proper validation pipeline working
+- [ ] **All changes, techniques, research needs, setbacks, breakthroughs, and context are exhaustively logged and accessible.**
 
 ### Phase 2: Quality Assurance
 - [ ] Extraction accuracy > 90% (validated)
 - [ ] Systematic quality metrics
 - [ ] Comprehensive documentation
+- [ ] **Exhaustive, transparent logs and documentation maintained for all research and analysis.**
 
 ### Phase 3: Analysis Ready
 - [ ] Extraction accuracy > 95% (validated)
 - [ ] Complete binary matrix extracted
 - [ ] Ready for cryptographic analysis
+- [ ] **All context, findings, and rationale are fully documented for future research.**
 
 ---
 
@@ -244,5 +208,6 @@ python startup.py help
 3. **Document Everything**: Track what works and what doesn't
 4. **Coordinate Often**: Share findings regularly
 5. **Be Honest**: Acknowledge failures and limitations
+6. **Maintain exhaustive, transparent logs and documentation at every step.**
 
 Remember: The goal is accuracy, not speed. Better to have 100 correctly extracted bits than 1000 incorrect ones.

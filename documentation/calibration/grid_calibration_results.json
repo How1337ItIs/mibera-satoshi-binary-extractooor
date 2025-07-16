@@ -1,0 +1,8833 @@
+{
+  "timestamp": "2025-07-16T02:36:31.317244",
+  "best_params": {
+    "row_pitch": 33,
+    "col_pitch": 26,
+    "row0": 5,
+    "col0": 3,
+    "score": 1.3502698778716564
+  },
+  "all_results": [
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.7180973945188145
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7752495032215565
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.8355250743734068
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8691624989434078
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8795106975821598
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7158843900014691
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7740745111816019
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.839340042170672
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8752020369830966
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8811585178256015
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7082736752322036
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.7691583139363475
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.8375308542720797
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.873401074465674
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8853055761326549
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.7067267424567625
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.76802935220513
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8404372109073561
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.8749844785342861
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.887659315617678
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.7344693013543311
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7980339183513494
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.868135035344393
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.8965347238166053
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9052563311594445
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.7606639279586778
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.8238293517110881
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.8958686425323806
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.9237688511046936
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.9296244592644927
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.9676961495802604
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.9276178106709685
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.8409595691319528
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.895968398095035
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.9389323708826012
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.9835739890142015
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.9393992318902356
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.8543255796633257
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.904260010812275
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.9516487091526018
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.9836101537064488
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.9438847736423215
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.862381377065933
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.9096181513913048
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.9505133157176472
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.9753909591833473
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.9348676865639564
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8545838556390183
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.9011286934774787
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.9396906864080522
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.9879493474529534
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.9493109480474096
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.8695648075931792
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.9111157664371855
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9494112440968062
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.0076403690556137
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.974828066129193
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.8909610459597491
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.935771306159976
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.9711756394340285
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.8499596673729398
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7852475422627815
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.776528078520302
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8091233916803686
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8500847839848646
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.8540223555495372
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7881101723769742
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7746776809003885
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8059244484997621
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8498666859085793
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.8563506963585004
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.789912969536625
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7735498826510636
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.8032185565463005
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8491592505069896
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.8501039941058058
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.7833895693384209
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7652263083448015
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7960354170619052
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.8470829296674257
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.8440974293708746
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7766925734647359
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.757966513892835
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7853492791997302
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.8338029176385501
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.859639278805812
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.7890124614856295
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7693017475462163
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7920444845533958
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.837745029128329
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6721109077575561
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6938408914405169
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7032983575682058
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7173300229066962
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.7907302058750948
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7129956251101477
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7313882465780926
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7409826279182612
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7487574989037058
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8196286437560113
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7397754428422962
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.7552839614422457
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.76248009053517
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.7688595305235795
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8377589011239667
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.7507726954855343
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.7651813849403756
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7729791076567484
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7812879829430535
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.8465756926198635
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.751134621828725
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7651201852978436
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.773068865940099
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7853602703050012
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.8513579344741877
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.7630789276250312
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.775751764896804
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7854699474575888
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7995521848992876
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.8675032366383016
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.3185331213489386
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 4,
+      "score": 1.2935304315241842
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.25621146752082
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 6,
+      "score": 1.2206343691853554
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.1992003503498931
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.3096187668181265
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.284361201504067
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.2482362015802122
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.21369386613252
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.1923893950693938
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.3062229844798998
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.2800196017450285
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.2418001130251333
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.2072225827503646
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.185639861901294
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.3042830319825018
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.280118239463722
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.2445496228580466
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.2084871178689076
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.1865539689116815
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.3122162222384468
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.2885917827404507
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.250617868614882
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.2106055738971344
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.1974625888485266
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.3247975486830703
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.2993900521001467
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.261793933265284
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.221743534549898
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.2074364744093358
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6841449529823407
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6692380523321706
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6503126675999259
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.6322650159715076
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.6162684547260164
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7120247936449713
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.6961202790351114
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.6776794530965528
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.6608700130100086
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.6440467139497849
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7313631284643085
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.7193223834114141
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7004793977223702
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.6884691454619184
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.6743464245686992
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.7658248288196932
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.7547383886166026
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.735502725177596
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7244649611286458
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7146403470809096
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.8024373092551635
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7944041194716501
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7746501533079808
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7638928501555966
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7570365767838506
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.8346789077068364
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.8276222967727597
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.8080342779930723
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7964190324568291
+    },
+    {
+      "row_pitch": 28,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.7889086750806209
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6483419852267601
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7200297696713284
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7773476554236483
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8032222913958958
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8231031578790292
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.6297257407342665
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7031022012086392
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7581090134107835
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7849804684369962
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8042643322792135
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.6220280486902209
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.691693353698261
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.745580010544894
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.77307852485007
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.7956324291174595
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.6032434136948892
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.6695845610303632
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7240902881080294
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7487576513949015
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7710730827006688
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.5917324794118236
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.6608346007833289
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7126582580771222
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7335958614281305
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7543062018758419
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.6020913741209478
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.6684110773654025
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7172846846904731
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7325280012301516
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.7581671623076947
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.9467367954981456
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.8914127698814579
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7835638346734506
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8112230696750367
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8376336629005937
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.9471491724994171
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.889049901299874
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7820166833574937
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8163392032284498
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8461107442042023
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.9398231091217438
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.8767366484042373
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7734106223751619
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.8066764742279812
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8377564916900957
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.9278277934974966
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.863875393772425
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7689017838868493
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.8003182838978624
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.8349546854692631
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.935125257737086
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.864429294969718
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.767125242940258
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7973636859013651
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.8276005417717432
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.9559634352224725
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.876789670461215
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7790809553896834
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.8071189888093586
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.8372537819466184
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.8901642601720108
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.820305428785198
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7989559119560143
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8170476880500307
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8404359707912742
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.8830951437231291
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.8149840826503391
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7950776020352046
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8126622741982614
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8357802146064266
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.8696947471344924
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.8016998856196169
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7802056869868982
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.7954600070779362
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8159585415227986
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.8552812842017506
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.7864169690623697
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7620898475500015
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.773375682180914
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7966488196513634
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.8601997565121957
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7904721931993844
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7645980946741776
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7764612483209512
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.8008782543004546
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.8640757920028005
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.7942754612031971
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7726461491888053
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7812087881449424
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.8095010799283846
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6539255041086142
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6721760740604426
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6868853751357924
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7065320441341094
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.7661579886858402
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.6566473349385701
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.6741510506446732
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.687496727027891
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7057285314515954
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.7652032779462365
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.65224638435462
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.6691589251477132
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.6816804077917947
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.6977787120392362
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.7583787498679141
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.6511603730427088
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.6675550293996159
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.6794672770719716
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.6931670954784386
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7536361021181118
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.6566468027386558
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.6745409684822945
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.6815056618313706
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.6981034177985761
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7626777108982872
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.6819929582891823
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.6931724639770368
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.702922578230998
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7206128161856354
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.7832059035700144
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.2102619458327164
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 4,
+      "score": 1.196022786016403
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.1487980057744092
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 6,
+      "score": 1.0986992878404553
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.0794812728214833
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.214307508256035
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.1946823701118119
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.1419672664770422
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.0864811790357138
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.0611541130839068
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.2231539554277706
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.2000603776804326
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.143685883342345
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.0848130765846402
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.0601783444636939
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.2342483407533766
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.2104817465628486
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.151299887277207
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.0894560277754726
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.0652297497399161
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.2579648493540863
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.2307369902471943
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.1674951374812454
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.1053651545922718
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.076461276955636
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.2785727201124355
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.250780733295495
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.185892332394762
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.1247389169170525
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.0937364352049948
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.649715321526
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6565545222995424
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6503783749324111
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.6372987484719272
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.6311251641595744
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.6193205752762053
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.6281550272615546
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.6230464343378795
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.6082673711159816
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.5992423124134276
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.6098453863980464
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.6181526188364209
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.6124764582111547
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.5948287825304944
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.5836659470686764
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.6222716555364985
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.6306171093241256
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.6240386208445342
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.6032399344940098
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.5941183251155688
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.6359741209473574
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.64343489037676
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.6385764443235588
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.6162460180093227
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.607716943010283
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.6522149798365117
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.6558043447744166
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.6462690223121855
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.6253692227727088
+    },
+    {
+      "row_pitch": 29,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.6168312297202919
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6995267466068908
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7739735912322063
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.8229505762973358
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8480279630000773
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8712375725948088
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.6769008886305924
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7457621495985545
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7959876605752753
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8241988764362651
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8477780556203182
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.6754907600181779
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.7438203768287323
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.793705811448286
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.8213560592845943
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8469410721002459
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.6922143182382877
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.7611889225329491
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8091249354037311
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.8380102499266248
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.8643711787368028
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.7004174025846163
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7651346044739697
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.8141926801051396
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.8473283695125505
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.8751248476063276
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.6999834043345255
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.7651766359807184
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.8171491720714802
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.8475090147208326
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.873421569147452
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.8167708818590336
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7764863793077552
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7196905917791255
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7682099166553765
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8163619678099091
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7984660779307509
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7662474809699824
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.707865291955856
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7537528422120522
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8008866303455916
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.807232385634204
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.7758355188597479
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7136131369340346
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.7542561307166448
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.802952815815161
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.8448869123751895
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.810179554162402
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.740207339026153
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7758076800184783
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.8207586748219058
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.8823146884118542
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.8462237819623075
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7736175804074615
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.8067031237989781
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.8457941187593081
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.915134912433759
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.8810155194738886
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.8035485722619364
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.8302667014850972
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.8659761843618409
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.7303290641297072
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6948382032524552
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6848897663482215
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.6944797040300976
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.7034223435581307
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7205517715772838
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.6845166843644934
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.6741825483283476
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.6835284490125574
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.6883643170408246
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7221769257190156
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.6851541649399975
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.6724658928388262
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.6825459183721693
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.6877068785383937
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.732543267417588
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.6988253540554697
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.6856265387047198
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.6925718969354642
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7007629506600956
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.748066397894558
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7141887414460601
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7006037009946875
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7096735749375691
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7183759379494348
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.7583803569456075
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.7232860631396587
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7127279624102077
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7222007008821785
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.7305579205977696
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6679210753667552
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6821215493099375
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6799444705810204
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.6840366728718728
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.735319287851054
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.657023135589375
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.6714677614677915
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.6674850573833288
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.6759296959886617
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.7257132189772941
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.6583336156126679
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.6716321871968599
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.6671052967555565
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.6780513923559216
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.7316640407920788
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.6828875762227808
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.6947290754937638
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.6905458569672285
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7016736064466458
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7560807674202896
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.695983309234226
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7066541036106929
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7046063913548672
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7138108925834833
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7703869741943146
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.7059156084744457
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.7166861981189856
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7183241877368818
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7312888021810472
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.7851799236355869
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.1539295153814177
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 4,
+      "score": 1.1381986847822678
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.0882055416505803
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 6,
+      "score": 1.04114079521492
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.0259190202886275
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.1394657325822024
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.1228451827098134
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.0752409385830621
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.0261550774711834
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.0071183806153163
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.1440420235439506
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.1284344509922255
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.0807387763284222
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.0346758462354952
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.0178145839381716
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.152553720091598
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.1348616619643461
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.0882603987977768
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.0425565242377128
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.0245476893464034
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.168597482824406
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.1505820073511455
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.1030422840988308
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.0596046879169205
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.0411865151791793
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.178657381231784
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.161233459558444
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.1119963767399288
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.0672606653946493
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.0500011600781274
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6524091407091656
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6491597591765105
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6421491639735811
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.6302729262070674
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.6103053249269565
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.6474555982235074
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.643085086889805
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.6354573040381546
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.6219010897788826
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.6028908235717083
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.664682067125617
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.6613687954484843
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.6508661436022789
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.6364101116457566
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.6150020703054474
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.6662455954754395
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.6622149459833706
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.6503179849625322
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.63599436898167
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.6113765112254035
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.6763923886865637
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.6706699046608536
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.6601625388254038
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.6428447835952916
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.617229014954843
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.6879966740263805
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.6797888014377449
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.6722233771589081
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.654989223386469
+    },
+    {
+      "row_pitch": 30,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.6303426276061541
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.603927106828841
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6568635207361554
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6934729720938344
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7201115750779883
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.7446843820580518
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.5983772588269672
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.65228384478447
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.6881492607458096
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7119417627546343
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.7381503255264019
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.6072673773142887
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.6626701319204323
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7044663472819654
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.7265720375984875
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.7500749259643137
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.6145724434995197
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.6708620690881035
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7175021522197532
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7383872120775787
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7621046437931677
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.6293206021722776
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.6909945154720799
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7393310393504638
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7598280462616769
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7826285597049016
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.652357233959604
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.7175703829076171
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7629635846645753
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7847571589004623
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.8066781041771395
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.8747666388501311
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.8152358630453251
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7297186950742963
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7703399929641668
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8058920590540685
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.8872893325911503
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.8279467090639523
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7419250330103269
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7851150916174131
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.818481224234264
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.904848649577424
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.8469465495846228
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7687029907997379
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.8046219202635141
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8327526374301912
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.9195436960845914
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.8607837041459098
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7825354515292625
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.8127129727223587
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.840472147697114
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.9379352689165137
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.8790896397068079
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.8020751478010117
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.831071497384461
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.8576590552872704
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.9590354661858462
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.8992849479269294
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.82416293724679
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.8541716614671752
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.8800710106956909
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.7572436842560529
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7239542517053998
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7150876807723435
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7216120761169184
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.7291519389830847
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7615263436522317
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7275307892166888
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7192864475509589
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7285807458365737
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.7430030105868076
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7613776891833721
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.7270630978554486
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.716779158178587
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.7267885372274095
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.7441607672112612
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.7624072427417897
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.7263176918045282
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7142944539729549
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7248267858236849
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7434370468462044
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.7605155927049206
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7199836180075948
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7098461143573351
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7203193841816381
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7374286695436542
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.7629930725109556
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.7192349027476542
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.7056037671747541
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7171018996259478
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.7358824946093783
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6342428175600346
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6352054278510412
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6292290225679882
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.6436359545942335
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.6909064370444024
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.6754858879585557
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.6732109820453521
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.6690394221400566
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.6829861849333548
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.7231528379764453
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.6912737928424001
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.6881390827132077
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.6829799272224383
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.6977368664687392
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.7378452776457437
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.7164049089584107
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.7115207432320018
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7118447388472035
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7247126455922289
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7625587739277865
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.7327023234058961
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7282764724205413
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.7284804009523042
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.7399751123861442
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7761942120745913
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.742425449733743
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.7437795883049528
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.745277857669979
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.7556295059029826
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.7898079408606004
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.1231856326913292
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 4,
+      "score": 1.1065488915350534
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.0570750538048699
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.9994711618879111
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.9710676219928105
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.123654253730864
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.1084624868676325
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.0601420113416242
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.0008223691165627
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.9723917314108351
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.1203216392904323
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.1059245584791673
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.0602271255752442
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.9987098865961913
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.9699514500938855
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.1110957452725205
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.1001081904967926
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.057279193546838
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.9949132640660291
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.965909523184625
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.1094094954038265
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.1005382563631272
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.0586310491230588
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.9977652294554321
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9665961523821971
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.1170276810558246
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.10742300079263
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.0678127834384152
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.0128403417996628
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.9797488800166454
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.547117990178258
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.5459538070400138
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.5510435088343384
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.548331292111057
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.5320186331334638
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.5560279776735003
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.5547450454498142
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.560365101701531
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.5578741741034575
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.5432102336257129
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.5541921592464151
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.5492935089567816
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.5538778100992866
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.5522053533401114
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.5391970748941449
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.549793410354002
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.5460293409090005
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.5492073785451576
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.5479925209155811
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.5383962186437818
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.5552814474225508
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.5490905391007234
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.5500666117822623
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.5467486513171479
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.5392987610747146
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.5638162434474421
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.5554227356698654
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.555572648521008
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.5513854490372841
+    },
+    {
+      "row_pitch": 31,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.5478185850757508
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.790528977644391
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.8503239350625943
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.8644080057676042
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8683861621927941
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8847353479303747
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.8206017465746833
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.8814907748387094
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.8985936538392937
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.9033943095563873
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.9186973264128481
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.8436280529802841
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.9033378781772742
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.9246296145545517
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.930405306341531
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.9436352529800429
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.8576619727677178
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.9170260219971995
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.9384645262012155
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.9481721007719754
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.9585771472947217
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.8598778989441084
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.923387950391839
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.9473353555901005
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.9586169481226909
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9672999462829543
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.8548293256713119
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.914599573053084
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.9399787432364609
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.9519184891980951
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.9638521744725386
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.0121338710733458
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.9504117113081063
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.876785804228261
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8934236899881511
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.9424917938514977
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.031560192512837
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.9647834991798916
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.8888810998300588
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.9094520878349593
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.9598179791188826
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.0358907724818929
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.9730027115775127
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.8945616986361082
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.9170456036291253
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.9691596451104297
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.0388478794438338
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.9781083771305228
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8983133787838375
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.9210327492560902
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.9744579076097535
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.034381786802412
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.969972092022808
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.888823456233858
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.9146253411552772
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9678506603716076
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.0176735181249106
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.9574451521089558
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.8695685325174177
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.904720847549154
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.953500248860643
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.8435852093200259
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7945431880934082
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7618329255480173
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.772752414112056
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8009807844181854
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.8627148375486074
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.8194669411319522
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7918044482524096
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8037093631320196
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8289492948518925
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.8745754643172399
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.8371401376460629
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.8149292179431347
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.8249286019444535
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8536773766349348
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.8836465019665692
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.8490391106187503
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8284678220853502
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.8471820412546684
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.8759028962820107
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.886488165568275
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.8564823476505794
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.8406280357777046
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.8632923581557657
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.8888649340141045
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.8799260447606025
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.8568873764407052
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.844166732794179
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.870416152591349
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.8969380781731076
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.7155252554124427
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7361371296087947
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7433056494638456
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7524565364419117
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8071346583016004
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.753043637395291
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7706408260250116
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7756169486625305
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7853098184415577
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8385949156930295
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7828322456541257
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.8002359338497765
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.8015216050247984
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.8101833308837316
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8636948085317271
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.799588590929982
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.8194923106447407
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8201904785652514
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.8231768672144252
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.8764240732117066
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.8255192180005994
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.8455070946031489
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.8438619462203595
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.8476152307904792
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.896267173520892
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.8379858020429942
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.8593594204124931
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.857109776761491
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.8558409850265443
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.8989797709721954
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.1856046970255418
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 4,
+      "score": 1.1897744060908566
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.1706465779151798
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 6,
+      "score": 1.1306699956324362
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.1128517324489013
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.216752347851758
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.2200994856235157
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.19653366536328
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.1575410213759953
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.1360529108232602
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.2379816873632974
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.2386256247994947
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.2137907800820755
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.1741866161660202
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.1513531930590422
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.2519522101842664
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.2483280201770406
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.2209241624576226
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.1819588517424866
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.1568704866778485
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.2605528219250277
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.2545736712282458
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.2257607920119242
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.1870796613520531
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.1630778771883117
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.2608432462978567
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.2510137276296303
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.2207941993335716
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.181106658760272
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.1566702275637606
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.7214870071707336
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7146655773434516
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7073598509865641
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7038287914407144
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.703950445451165
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7348936939652857
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7266473104968795
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.720311917791024
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7176473230013825
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.7194685441194052
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7289291547296399
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.720731622630107
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7155625916819097
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.7139937069310475
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.7153507860856925
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.7146809237602854
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.7060062271944039
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.7016275627048317
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.7012394073345045
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.7017917475811818
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.7072220734802939
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.7002376241788189
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.6965312139480545
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.6989218419172202
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.7008797733402302
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.6960731361013182
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.6876738034615664
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.6832893728095717
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.685520001249237
+    },
+    {
+      "row_pitch": 32,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.6916895858813167
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6956552756178307
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.757671219360481
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7894755290488734
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.7948414901121856
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.7927638505050434
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7815600356217314
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.8463484544955967
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.8765752652743893
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8833191531816202
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.879186203506482
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7944011465881766
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.8570416922517805
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.8839547817588912
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.8934038605032509
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8870761781937927
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.806879934722105
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.8728779261052936
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.9012923913128961
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.9121447437814871
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.9047113410459383
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.8087261502434917
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.8749636437518601
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.9058693428355578
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.921177265003814
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9144220318524248
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.8206984181776737
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.8847751363469393
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.9147612626562047
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.9310423673361172
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.9259981909915879
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.9238255411655142
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.8640227524559917
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7701950919674955
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8111149639551781
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8552235754270869
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.0478978789375344
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.9703076425803167
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.8603979918900382
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.9027642394387703
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.9537099861651951
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.0657411352692918
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.9880017948108986
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.8785401568420628
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.9233904970924267
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.9741755803766959
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.0726834328274637
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.997184655704235
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8942542859011982
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.9339990365486669
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.9867896493411793
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.0690391466898304
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.9990205577048878
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.9015271163265154
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.9401027425063921
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9944648367822781
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.0724428806625188
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.0016071471063774
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.9077406274270987
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.9514223337857405
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.0081650703987317
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.743986910219167
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.7295563875292681
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.7307836738003487
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.738935390352343
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.7530437291877616
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.8309195709683788
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.813820075930795
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.8180013283043164
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8337903927471039
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8456368497885325
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.8492559942025817
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.830897689027556
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.8355491987804596
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.8558115303787784
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8698269136760504
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.8831858703747649
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.8612466887546594
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8634849707770539
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.8872149821483102
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.9066304459166048
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.9181654377361688
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.8947459950636846
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.895846714062619
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.9201578083692339
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.941349310652453
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.9534875032467084
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.9271321526276791
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.9247875983217073
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.9514595980237078
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.9718522286587673
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.6600153730840211
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.6717816658727861
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.6763666407351834
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.6821240581411372
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.7313402148303256
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.7428736489397036
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.7599785424066198
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.7615678213814872
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.7670500691915415
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.8321743289337804
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.7753682460355334
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.7931198913225165
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.7945519692011338
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.7997080840938422
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.8634852289619246
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.7949741237617242
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.8160390668996861
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.819293989481613
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.8213681775033379
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.8860809443374155
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.8346254936682763
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.8533052383969542
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.8557010856951774
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.8598184674387557
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9215813151713592
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.8615215683798577
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.8790669591056561
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.8816491582671073
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.8866961474135961
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.9471443983304643
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.1514774893111703
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 4,
+      "score": 1.1097642136751675
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.0529766130347387
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 6,
+      "score": 1.013820647911713
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.9932156692631451
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.2897582127730653
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.2434675622489586
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.178695046802341
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.1309328242649268
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.1081771719517066
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.3119395286231965
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.2638037591030324
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.202319851574496
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.1501599536581166
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.1285058593879433
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.3265493971769233
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.2809185286743745
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.2229404270529767
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.1698389046364488
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.1450628270130416
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.3337155250123416
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.289690296142422
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.2337639707775137
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.1796886555543482
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.1517946442273936
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.3502698778716564
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.3061957732708613
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.2526993121512264
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.196580554572816
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.165439414744486
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.5804589969763759
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.571816603122876
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.5680001646131018
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.5607087189713924
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.5536644198054579
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.639587965657762
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.6306241261546109
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.6277666511395777
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.6262438333090762
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.6194501895464266
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.6588885402833796
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.6494928837382671
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.6457255133434673
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.6452746702438273
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.6401078427260077
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.6679824429396386
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.6591740389653598
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.654860647762633
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.6561238695541753
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.6541096176239721
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.6732588990684645
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.66598228881832
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.6632536014098199
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.6668544311468868
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.6655249918513889
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.6844622046507541
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.6768301329812743
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.6761005156363152
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.6795331957821603
+    },
+    {
+      "row_pitch": 33,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.6772790558554043
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.8962057138580788
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.9608650491048353
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.0053241801138928
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 6,
+      "score": 1.0352263329063167
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.0498982852404402
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.9589341955359093
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.0259458210128214
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.0696384267232104
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.0978403293880468
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.1114714492239233
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.0083226681780435
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.0711246645670889
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.1109615520393488
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.1353508814280304
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.1521527298513417
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.040465442211312
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.0991624177420425
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.136404875721082
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.1591929323969223
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.1726535941009995
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.044299292759956
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.102363034421519
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.1405627338806288
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.1628464479150056
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.1702930759154069
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.0390895115432548
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.093368724162241
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.1303576767776198
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.1535113756620443
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 22,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.1609097194559033
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.0155513642380196
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.9631829340197773
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.877481695365807
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.9407194915337213
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.0057337902107863
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.0097450738276237
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.9551024857886292
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.8797839013313825
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.942266070244211
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.0009644059985272
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.976301284594598
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.9276327896951231
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.8574697094883191
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.9224116608307467
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.9799880568615781
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.9583866659153463
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.9102018353635136
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.8468368852311182
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.9137211717562332
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.9734062024922951
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.9755975774062046
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.9351450917450291
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.8820127373565726
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.9576544191381713
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.01978583975513
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.9876088514532166
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.954263910256789
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.9132766777326198
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.9975006095558712
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 23,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.0593239286255387
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.9762786208357013
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.9332905169965127
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.9491840094453637
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.9993263300652315
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.0448984846774307
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.9850403534684887
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.9399276564877831
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.957759329522702
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.0133889983608686
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.0545720650419232
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.9948143461577352
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.9526552494204181
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.9708893324476067
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.023849854651326
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.0670818303424163
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.0132445735999176
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.9738363457220827
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.9923587063030141
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.0436848113994566
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.0855369108395365
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.029528027366402
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.9918686261973281
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.008525928505028
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.0611905819320315
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.1023784965928196
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.0473731483196416
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.0111502002369095
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.0239808898846159
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.0733334369764347
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 24,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.1105467988178725
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.0548812767762419
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 4,
+      "score": 1.0724042873112778
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.0741881467887928
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 6,
+      "score": 1.0668725726771107
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.0805635523205541
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.0615330371889256
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.085274655814776
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.0866088621723744
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.0825876733598936
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.0991907498876723
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.073373991963333
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.0964317566782495
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.0953685295685223
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.0908201803613506
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.1127475345022058
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.0827107331230346
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.1044027500223954
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.1060976960185422
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.1028842254441331
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.1269309497889766
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.081597932135771
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.0965961593859177
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.0992145756192921
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.096077720444907
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.122562874262833
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.058148301395935
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.0707850660808285
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.0725962824215043
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.070694797019615
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 25,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.1015549062159389
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 3,
+      "score": 1.1931310306531042
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 4,
+      "score": 1.1792360970652107
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 5,
+      "score": 1.164597216863838
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 6,
+      "score": 1.1347771936222508
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 0,
+      "col0": 7,
+      "score": 1.1297418707721858
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 3,
+      "score": 1.2177323559982836
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 4,
+      "score": 1.21023703018034
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 5,
+      "score": 1.2004365486104018
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 6,
+      "score": 1.174821993310558
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 1,
+      "col0": 7,
+      "score": 1.178392976446672
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 3,
+      "score": 1.238253629900306
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 4,
+      "score": 1.2302763130932854
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 5,
+      "score": 1.226865706624481
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 6,
+      "score": 1.206306890129033
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 2,
+      "col0": 7,
+      "score": 1.2119496673758865
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 3,
+      "score": 1.2544546521646252
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 4,
+      "score": 1.2498146091633302
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 5,
+      "score": 1.2490459466672148
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 6,
+      "score": 1.2348896448860154
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 3,
+      "col0": 7,
+      "score": 1.2444163847602123
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 3,
+      "score": 1.2638194586016924
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 4,
+      "score": 1.2628434240608886
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 5,
+      "score": 1.261751726554392
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 6,
+      "score": 1.2500290202675055
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 4,
+      "col0": 7,
+      "score": 1.2586118107652888
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 3,
+      "score": 1.2701499066267345
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 4,
+      "score": 1.2742026544880407
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 5,
+      "score": 1.2717378920491456
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 6,
+      "score": 1.258755718027214
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 26,
+      "row0": 5,
+      "col0": 7,
+      "score": 1.2691734332018523
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 3,
+      "score": 0.851210079990766
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 4,
+      "score": 0.8450912288508925
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 5,
+      "score": 0.8383591879434297
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 6,
+      "score": 0.8246788934106082
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 0,
+      "col0": 7,
+      "score": 0.8214038561551499
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 3,
+      "score": 0.9146301964774326
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 4,
+      "score": 0.9082553599002624
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 5,
+      "score": 0.9008157061711312
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 6,
+      "score": 0.8888172760734213
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 1,
+      "col0": 7,
+      "score": 0.886586802862809
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 3,
+      "score": 0.9461079202627326
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 4,
+      "score": 0.9387877960214028
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 5,
+      "score": 0.9318116905356446
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 6,
+      "score": 0.9218247409860888
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 2,
+      "col0": 7,
+      "score": 0.9209846971629106
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 3,
+      "score": 0.9728816922909839
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 4,
+      "score": 0.967128705221755
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 5,
+      "score": 0.9618018508583117
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 6,
+      "score": 0.9507431827734388
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 3,
+      "col0": 7,
+      "score": 0.9492484717956208
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 3,
+      "score": 0.980630883628172
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 4,
+      "score": 0.974020199597986
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 5,
+      "score": 0.9678702286083054
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 6,
+      "score": 0.9577546673379422
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 4,
+      "col0": 7,
+      "score": 0.9552002671670409
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 3,
+      "score": 0.9854753737104848
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 4,
+      "score": 0.9769757279407949
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 5,
+      "score": 0.9725145774790255
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 6,
+      "score": 0.9633523474787705
+    },
+    {
+      "row_pitch": 34,
+      "col_pitch": 27,
+      "row0": 5,
+      "col0": 7,
+      "score": 0.9627506993817053
+    }
+  ],
+  "methodology": "systematic_parameter_sweep"
+}
