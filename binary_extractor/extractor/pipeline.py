@@ -38,17 +38,70 @@ def extract_channel(img: np.ndarray, color_space: str) -> np.ndarray:
     
     Args:
         img: Input BGR image
-        color_space: Channel specification (Lab_b, HSV_S, RGB_inv, etc.)
+        color_space: Channel specification (Lab_b, HSV_S, RGB_R, etc.)
     
     Returns:
         Single-channel image
     """
-    if color_space == 'Lab_b':
-        lab = cv2.cvtColor(img, cv2.COLOR_BGR2Lab)
-        return lab[:, :, 2]  # b channel (blue-yellow)
+    # RGB channels
+    if color_space == 'RGB_R':
+        rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        return rgb[:, :, 0]  # Red channel
+    elif color_space == 'RGB_G':
+        rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        return rgb[:, :, 1]  # Green channel
+    elif color_space == 'RGB_B':
+        rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        return rgb[:, :, 2]  # Blue channel
+    
+    # HSV channels
+    elif color_space == 'HSV_H':
+        hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+        return hsv[:, :, 0]  # Hue channel
     elif color_space == 'HSV_S':
         hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-        return hsv[:, :, 1]  # S channel (saturation)
+        return hsv[:, :, 1]  # Saturation channel
+    elif color_space == 'HSV_V':
+        hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+        return hsv[:, :, 2]  # Value channel
+    
+    # LAB channels
+    elif color_space == 'LAB_L':
+        lab = cv2.cvtColor(img, cv2.COLOR_BGR2Lab)
+        return lab[:, :, 0]  # L channel (lightness)
+    elif color_space == 'LAB_A':
+        lab = cv2.cvtColor(img, cv2.COLOR_BGR2Lab)
+        return lab[:, :, 1]  # A channel (green-red)
+    elif color_space == 'LAB_B':
+        lab = cv2.cvtColor(img, cv2.COLOR_BGR2Lab)
+        return lab[:, :, 2]  # B channel (blue-yellow)
+    
+    # YUV channels
+    elif color_space == 'YUV_Y':
+        yuv = cv2.cvtColor(img, cv2.COLOR_BGR2YUV)
+        return yuv[:, :, 0]  # Y channel (luminance)
+    elif color_space == 'YUV_U':
+        yuv = cv2.cvtColor(img, cv2.COLOR_BGR2YUV)
+        return yuv[:, :, 1]  # U channel
+    elif color_space == 'YUV_V':
+        yuv = cv2.cvtColor(img, cv2.COLOR_BGR2YUV)
+        return yuv[:, :, 2]  # V channel
+    
+    # HLS channels
+    elif color_space == 'HLS_H':
+        hls = cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
+        return hls[:, :, 0]  # Hue channel
+    elif color_space == 'HLS_L':
+        hls = cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
+        return hls[:, :, 1]  # Lightness channel
+    elif color_space == 'HLS_S':
+        hls = cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
+        return hls[:, :, 2]  # Saturation channel
+    
+    # Legacy support
+    elif color_space == 'Lab_b':
+        lab = cv2.cvtColor(img, cv2.COLOR_BGR2Lab)
+        return lab[:, :, 2]  # b channel (blue-yellow)
     elif color_space == 'RGB_inv':
         rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         return 255 - rgb[:, :, 1]  # inverted green channel

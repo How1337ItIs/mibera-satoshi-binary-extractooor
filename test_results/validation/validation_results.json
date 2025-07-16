@@ -1,0 +1,14 @@
+[
+  {
+    "row": 0,
+    "col": 0,
+    "original_bit": "0",
+    "consensus_bit": "0",
+    "validation_result": "confirmed",
+    "confidence": 0.8066666666666668,
+    "method_agreement": 1.0,
+    "neighbor_consistency": 0.6666666666666666,
+    "features": {
+      "mean": 32.8014705882353,
+      "std": 23.36548480537717,
+      "min": 
