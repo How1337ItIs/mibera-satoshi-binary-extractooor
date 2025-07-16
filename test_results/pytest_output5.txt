@@ -1,0 +1,320 @@
+EEEEEEEEEEE.                                                             [100%]
+=================================== ERRORS ====================================
+_______________ ERROR at setup of TestPipeline.test_load_config _______________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+_____________ ERROR at setup of TestPipeline.test_pipeline_basic ______________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+_____________ ERROR at setup of TestPipeline.test_analyze_results _____________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+_____________ ERROR at setup of TestPipeline.test_grid_detection ______________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+_____________ ERROR at setup of TestPipeline.test_pitch_detection _____________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+___________ ERROR at setup of TestPipeline.test_cell_classification ___________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+__________ ERROR at setup of TestPipeline.test_classify_matrix_shape __________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+________ ERROR at setup of TestPipeline.test_minimum_digits_extracted _________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+____________ ERROR at setup of TestPipeline.test_csv_output_format ____________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+_________ ERROR at setup of TestConfiguration.test_config_parameters __________
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+_____ ERROR at setup of TestConfiguration.test_classification_thresholds ______
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates():
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        import tempfile
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+        work      = tests_dir / "harvest_tmp"
+        if work.exists():
+            shutil.rmtree(work)
+        work.mkdir(exist_ok=True)
+    
+        # Use the poster top row crop (should already be in tests/data/)
+        sample_img = data_dir / "top_row.png"
+>       assert sample_img.exists(), "Need a crop with clear digits for harvesting"
+E       AssertionError: Need a crop with clear digits for harvesting
+E       assert False
+E        +  where False = exists()
+E        +    where exists = WindowsPath('C:/Users/natha/mibera-satoshi-anaylzer/binary_extractor/tests/data/top_row.png').exists
+
+binary_extractor\tests\conftest.py:24: AssertionError
+============================== warnings summary ===============================
+test_color_spaces.py::test_color_spaces
+  C:\Program Files\Python310\lib\site-packages\_pytest\python.py:161: PytestReturnNotNoneWarning: Test functions should return None, but test_color_spaces.py::test_color_spaces returned <class 'list'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_load_config
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_pipeline_basic
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_analyze_results
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_grid_detection
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_pitch_detection
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_cell_classification
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_classify_matrix_shape
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_minimum_digits_extracted
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_csv_output_format
+ERROR binary_extractor/tests/test_pipeline.py::TestConfiguration::test_config_parameters
+ERROR binary_extractor/tests/test_pipeline.py::TestConfiguration::test_classification_thresholds
+1 passed, 1 warning, 11 errors in 2.56s

@@ -31,13 +31,21 @@ def classify_cell_bits(
     overlay_mask: np.ndarray,
     rows: List[int],
     cols: List[int],
-    cfg: Dict[str, Any]
-) -> List[Tuple[int, int, str]]:
+    cfg: Dict[str, Any],
+    *,
+    return_matrix: bool = False
+) -> Any:
     """
     Classify each cell as 0, 1, blank, or overlay.
     Uses template matching if cfg['template_match'] == True.
     Implements dual-pass thresholding: first pass conservative, second pass looser on blanks.
+    If return_matrix is True, also returns (cells, bits_mat, conf_mat):
+      - bits_mat: np.int8, shape (n_rows, n_cols), 1=one, 0=zero, -1=blank, -2=overlay
+      - conf_mat: np.float32, shape (n_rows, n_cols), confidence per cell (0-1)
     """
+    n_rows, n_cols = len(rows), len(cols)
+    bits_mat = np.full((n_rows, n_cols), -1, dtype=np.int8)  # -1 = blank
+    conf_mat = np.zeros((n_rows, n_cols), dtype=np.float32)
     cells = []
     ocr_backend = cfg.get('ocr_backend', 'heuristic')
     templates = None
@@ -47,7 +55,6 @@ def classify_cell_bits(
         templates = load_templates(template_dir)
         if not templates or '0' not in templates or '1' not in templates:
             raise RuntimeError("Template matching selected but templates not found in tests/data/")
-
     # First pass: conservative thresholds
     bit_lo_1 = 0.35
     bit_hi_1 = 0.70
@@ -70,17 +77,24 @@ def classify_cell_bits(
             overlay_coverage = np.sum(cell_overlay > 0) / cell_overlay.size if cell_overlay.size > 0 else 0
             if overlay_coverage > cfg['overlay']['cell_coverage_threshold']:
                 bit = 'overlay'
+                bits_mat[i, j] = -2
+                conf_mat[i, j] = 0.0
             else:
                 # Conservative first pass
                 white_pixels = np.sum(cell_bw == 255)
                 total_pixels = cell_bw.size
                 white_ratio = white_pixels / total_pixels if total_pixels > 0 else 0
+                conf = min(1.0, max(0.0, abs(white_ratio - 0.5) * 2))
+                conf_mat[i, j] = conf
                 if white_ratio > bit_hi_1:
                     bit = '1'
+                    bits_mat[i, j] = 1
                 elif white_ratio < bit_lo_1:
                     bit = '0'
+                    bits_mat[i, j] = 0
                 else:
                     bit = 'blank'
+                    bits_mat[i, j] = -1
             cell_results[(i, j)] = bit
             if bit == 'blank':
                 blank_cells.append((i, j, cell_bw, cell_overlay, cell_img))
@@ -93,13 +107,19 @@ def classify_cell_bits(
             white_pixels = np.sum(cell_bw == 255)
             total_pixels = cell_bw.size
             white_ratio = white_pixels / total_pixels if total_pixels > 0 else 0
+            conf = min(1.0, max(0.0, abs(white_ratio - 0.5) * 2))
+            conf_mat[i, j] = conf
             if white_ratio > bit_hi_2:
                 cells[idx] = (i, j, '1')
                 cell_results[(i, j)] = '1'
+                bits_mat[i, j] = 1
             elif white_ratio < bit_lo_2:
                 cells[idx] = (i, j, '0')
                 cell_results[(i, j)] = '0'
+                bits_mat[i, j] = 0
             # else remain blank
+    if return_matrix:
+        return cells, bits_mat, conf_mat
     return cells
 
 

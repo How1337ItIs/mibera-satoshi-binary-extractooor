@@ -249,8 +249,13 @@ def run(image_path: Path, out_dir: Path, cfg: dict = None):
             cols = list(range(cfg['col0'], img.shape[1], cfg['col_pitch']))
             print(f"[PIPELINE] Grid detected (manual): rows={len(rows)}, cols={len(cols)}")
         # Step 7: Cell classification
-        cells = classify_cell_bits(img, bw, overlay_mask, rows, cols, cfg)
+        # Now returns (cells, bits, conf) if return_matrix=True
+        cells, bits, conf = classify_cell_bits(img, bw, overlay_mask, rows, cols, cfg, return_matrix=True)
         print(f"[PIPELINE] Cell classification done: {len(cells)} cells")
+        # Auto-harvest templates from high-confidence cells before template matching
+        from .template_harvest import harvest_templates
+        harvest_templates(bw, rows, cols, out_dir, cfg, bits, conf)
+        # (Optional) Use bits/conf for overlays, brute-fill, and confidence overlays downstream
         # Step 8: Template matching fallback (if enabled)
         if cfg.get('template_match', False):
             cells = apply_template_matching_fallback(img, cells, rows, cols, cfg)

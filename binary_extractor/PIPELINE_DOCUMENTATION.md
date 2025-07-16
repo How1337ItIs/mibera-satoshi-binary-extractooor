@@ -31,6 +31,7 @@ This pipeline extracts every visible ‘0’ and ‘1’ bit from the Satoshi po
   - `otsu`: Global Otsu threshold
   - `adaptive`: Adaptive Gaussian threshold
   - `sauvola`: Local Sauvola threshold (via scikit-image)
+  - `region`: Blockwise Otsu/Sauvola (adaptive per block, best for variable backgrounds)
 - **Config:**  
   ```yaml
   threshold:
@@ -38,6 +39,10 @@ This pipeline extracts every visible ‘0’ and ‘1’ bit from the Satoshi po
     adaptive_C: 4
     sauvola_window_size: 15
     sauvola_k: 0.2
+    # region-adaptive thresholding
+    # method: region enables blockwise Otsu/Sauvola
+    adap_block: 64     # block size for region thresholding
+    adap_sigma: 12     # stdev threshold for Otsu/Sauvola switch
   ```
 
 ### 4. Morphology
@@ -115,6 +120,20 @@ This pipeline extracts every visible ‘0’ and ‘1’ bit from the Satoshi po
   - `cells_color.png`: Color-coded cell types
   - `cyan_channel.png`, `gaussian_subtracted.png`: Preprocessing steps
 
+### Self-Contained HTML Report
+- **Purpose:** Summarizes extraction results in a single, portable HTML file with inlined images and charts.
+- **How it works:**  
+  - After extraction, generates `report.html` in the output directory.
+  - Embeds bit counts, a bar chart, and the confidence overlay image (all as base64).
+- **Config:**
+  ```yaml
+  html_report: true
+  ```
+- **Usage:**  
+  Set `html_report: true` in `cfg.yaml`.  
+  Open `report.html` in any browser.  
+  *Tip: Use “View Source” to confirm all images are inlined.*
+
 ---
 
 ## Configuration Example (`cfg.yaml`)
@@ -127,6 +146,10 @@ threshold:
   adaptive_C: 4
   sauvola_window_size: 15
   sauvola_k: 0.2
+  # region-adaptive thresholding
+  # method: region enables blockwise Otsu/Sauvola
+  adap_block: 64     # block size for region thresholding
+  adap_sigma: 12     # stdev threshold for Otsu/Sauvola switch
 morph_k: 3
 morph_iterations: 2
 use_mahotas_thin: false

@@ -1,0 +1,22 @@
+
+=================================== ERRORS ====================================
+___________________ ERROR collecting binary_extractor/tests ___________________
+C:\Program Files\Python310\lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1050: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1027: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1006: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:688: in _load_unlocked
+    ???
+C:\Program Files\Python310\lib\site-packages\_pytest\assertion\rewrite.py:186: in exec_module
+    exec(co, module.__dict__)
+binary_extractor\tests\conftest.py:2: in <module>
+    from extractor.pipeline import run
+E   ModuleNotFoundError: No module named 'extractor'
+=========================== short test summary info ===========================
+ERROR binary_extractor/tests - ModuleNotFoundError: No module named 'extractor'
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 1.44s

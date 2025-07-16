@@ -40,6 +40,13 @@ To use template matching for digit recognition:
 - `bw_mask.png`: Binary mask for debugging
 - Debug visualizations in output directory
 
+## New Features
+
+- **Region-Adaptive Thresholding:**
+  Set `threshold.method: region` in `cfg.yaml` for best results on variable backgrounds.
+- **HTML Report:**
+  Set `html_report: true` to generate a portable summary report after each run.
+
 ## Architecture
 
 - `pipeline.py`: Main orchestration logic

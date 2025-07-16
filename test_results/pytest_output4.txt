@@ -1,0 +1,221 @@
+EEEEEEEEEEE.                                                             [100%]
+=================================== ERRORS ====================================
+_______________ ERROR at setup of TestPipeline.test_load_config _______________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+_____________ ERROR at setup of TestPipeline.test_pipeline_basic ______________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+_____________ ERROR at setup of TestPipeline.test_analyze_results _____________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+_____________ ERROR at setup of TestPipeline.test_grid_detection ______________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+_____________ ERROR at setup of TestPipeline.test_pitch_detection _____________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+___________ ERROR at setup of TestPipeline.test_cell_classification ___________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+__________ ERROR at setup of TestPipeline.test_classify_matrix_shape __________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+________ ERROR at setup of TestPipeline.test_minimum_digits_extracted _________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+____________ ERROR at setup of TestPipeline.test_csv_output_format ____________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+_________ ERROR at setup of TestConfiguration.test_config_parameters __________
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+_____ ERROR at setup of TestConfiguration.test_classification_thresholds ______
+
+tmp_path_factory = TempPathFactory(_given_basetemp=None, _trace=<pluggy._tracing.TagTracerSub object at 0x0000013AA2E4CD90>, _basetemp=None, _retention_count=3, _retention_policy='all')
+
+    @pytest.fixture(scope="session", autouse=True)
+    def ensure_real_templates(tmp_path_factory):
+        """
+        One\u2011time per test session:
+        1. Run a tiny crop through the pipeline with template_match off.
+        2. Harvest high\u2011confidence templates via the existing harvest step.
+        3. Copy template PNGs into tests/data/ for downstream tests.
+        """
+        tests_dir = pathlib.Path(__file__).parent
+        data_dir  = tests_dir / "data"
+>       work      = tmp_path_factory.mktemp("harvest")
+E       PermissionError: [WinError 5] Access is denied: 'C:\\Users\\natha\\AppData\\Local\\Temp\\pytest-of-natha'
+
+binary_extractor\tests\conftest.py:16: PermissionError
+============================== warnings summary ===============================
+test_color_spaces.py::test_color_spaces
+  C:\Program Files\Python310\lib\site-packages\_pytest\python.py:161: PytestReturnNotNoneWarning: Test functions should return None, but test_color_spaces.py::test_color_spaces returned <class 'list'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_load_config
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_pipeline_basic
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_analyze_results
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_grid_detection
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_pitch_detection
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_cell_classification
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_classify_matrix_shape
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_minimum_digits_extracted
+ERROR binary_extractor/tests/test_pipeline.py::TestPipeline::test_csv_output_format
+ERROR binary_extractor/tests/test_pipeline.py::TestConfiguration::test_config_parameters
+ERROR binary_extractor/tests/test_pipeline.py::TestConfiguration::test_classification_thresholds
+1 passed, 1 warning, 11 errors in 2.72s

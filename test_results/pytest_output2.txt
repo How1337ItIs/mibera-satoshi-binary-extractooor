@@ -1,0 +1,480 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.6, pytest-8.4.1, pluggy-1.6.0
+rootdir: C:\Users\natha\mibera-satoshi-anaylzer
+plugins: anyio-3.7.1, asyncio-1.0.0, syrupy-4.9.1
+asyncio: mode=strict, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 12 items
+
+binary_extractor\tests\test_pipeline.py FF..FFFFFFF                      [ 91%]
+test_color_spaces.py .                                                   [100%]
+
+================================== FAILURES ===================================
+________________________ TestPipeline.test_load_config ________________________
+
+self = <test_pipeline.TestPipeline object at 0x000002DFF1B56A40>
+
+    def test_load_config(self):
+        """Test configuration loading."""
+        cfg = load_config()
+        assert isinstance(cfg, dict)
+        assert 'blur_sigma' in cfg
+>       assert 'adaptive' in cfg
+E       AssertionError: assert 'adaptive' in {'bit_hi': 0.7, 'bit_lo': 0.3, 'blur_sigma': 25, 'col0': 20, ...}
+
+binary_extractor\tests\test_pipeline.py:73: AssertionError
+______________________ TestPipeline.test_pipeline_basic _______________________
+
+self = <test_pipeline.TestPipeline object at 0x000002DFF1B56BF0>
+
+    def test_pipeline_basic(self):
+        """Test basic pipeline execution."""
+        output_dir = self.temp_dir / "output"
+    
+>       cells = run(self.test_image_path, output_dir, self.cfg)
+
+binary_extractor\tests\test_pipeline.py:80: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+binary_extractor\extractor\pipeline.py:253: in run
+    cells, bits, conf = classify_cell_bits(img, bw, overlay_mask, rows, cols, cfg, return_matrix=True)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+original_img = array([[[128, 255, 128],
+        [128, 255, 128],
+        [128, 255, 128],
+        ...,
+        [128, 255, 128],
+     ...    ...,
+        [128, 255, 128],
+        [128, 255, 128],
+        [128, 255, 128]]], shape=(200, 200, 3), dtype=uint8)
+bw_image = array([[255, 255, 255, ...,   0,   0,   0],
+       [255, 255, 255, ...,   0,   0,   0],
+       [255, 255, 255, ...,   ...       [  0,   0,   0, ...,   0,   0,   0],
+       [  0,   0,   0, ...,   0,   0,   0]], shape=(200, 200), dtype=uint8)
+overlay_mask = array([[0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0]], shape=(200, 200), dtype=uint8)
+rows = [11, 41, 71, 101, 131, 161, ...], cols = [7, 19, 31, 43, 55, 67, ...]
+cfg = {'bit_hi': 0.7, 'bit_lo': 0.3, 'blur_sigma': 25, 'col0': 20, ...}
+
+    def classify_cell_bits(
+        original_img: np.ndarray,
+        bw_image: np.ndarray,
+        overlay_mask: np.ndarray,
+        rows: List[int],
+        cols: List[int],
+        cfg: Dict[str, Any],
+        *,
+        return_matrix: bool = False
+    ) -> Any:
+        """
+        Classify each cell as 0, 1, blank, or overlay.
+        Uses template matching if cfg['template_match'] == True.
+        Implements dual-pass thresholding: first pass conservative, second pass looser on blanks.
+        If return_matrix is True, also returns (cells, bits_mat, conf_mat):
+          - bits_mat: np.int8, shape (n_rows, n_cols), 1=one, 0=zero, -1=blank, -2=overlay
+          - conf_mat: np.float32, shape (n_rows, n_cols), confidence per cell (0-1)
+        """
+        n_rows, n_cols = len(rows), len(cols)
+        bits_mat = np.full((n_rows, n_cols), -1, dtype=np.int8)  # -1 = blank
+        conf_mat = np.zeros((n_rows, n_cols), dtype=np.float32)
+        cells = []
+        ocr_backend = cfg.get('ocr_backend', 'heuristic')
+        templates = None
+        if cfg.get('template_match', False):
+            # Load templates from tests/data/
+            template_dir = Path(__file__).parent.parent / 'tests' / 'data'
+            templates = load_templates(template_dir)
+            if not templates or '0' not in templates or '1' not in templates:
+>               raise RuntimeError("Template matching selected but templates not found in tests/data/")
+E               RuntimeError: Template matching selected but templates not found in tests/data/
+
+binary_extractor\extractor\classify.py:57: RuntimeError
+---------------------------- Captured stdout call -----------------------------
+[PIPELINE] Starting run() with image_path=C:\Users\natha\AppData\Local\Temp\tmpb5e4ly00\test_image.png, out_dir=C:\Users\natha\AppData\Local\Temp\tmpb5e4ly00\output
+[PIPELINE] Loaded config: {'use_color_space': 'HSV_S', 'blur_sigma': 25, 'threshold': {'method': 'otsu', 'adaptive_C': 4, 'sauvola_window_size': 15, 'sauvola_k': 0.2}, 'morph_k': 3, 'morph_iterations': 2, 'use_mahotas_thin': False, 'row_pitch': None, 'col_pitch': None, 'row0': 50, 'col0': 20, 'bit_hi': 0.7, 'bit_lo': 0.3, 'overlay': {'saturation_threshold': 40, 'value_threshold': 180, 'cell_coverage_threshold': 0.2, 'dilate_pixels': 2}, 'template_match': True, 'tm_thresh': 0.4, 'save_debug': True, 'debug_artifacts': ['bw_mask.png', 'silver_mask.png', 'grid_overlay.png', 'cells_color.png', 'cyan_channel.png', 'gaussian_subtracted.png'], 'output': {'csv_encoding': 'utf-8'}}
+[PIPELINE] Output directory ensured: C:\Users\natha\AppData\Local\Temp\tmpb5e4ly00\output
+[PIPELINE] Image loaded: shape=(200, 200, 3)
+[PIPELINE] Channel extracted: HSV_S
+[PIPELINE] Background subtraction done
+[PIPELINE] Thresholding done
+[PIPELINE] Morphology done
+[PIPELINE] Overlay mask created
+[PIPELINE] Debug artifacts saved
+[GRID] Brute-force grid search: best_row0=11, best_col0=7, row_pitch=30, col_pitch=12, confident_cells=119
+[PIPELINE] Grid detected (auto): rows=7, cols=17
+[DEBUG] Looking for templates in: C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\tests\data
+[DEBUG] Found 0 files for label '0': []
+[DEBUG] Found 0 files for label '1': []
+[PIPELINE] ERROR: Template matching selected but templates not found in tests/data/
+---------------------------- Captured stderr call -----------------------------
+Traceback (most recent call last):
+  File "C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\extractor\pipeline.py", line 253, in run
+    cells, bits, conf = classify_cell_bits(img, bw, overlay_mask, rows, cols, cfg, return_matrix=True)
+  File "C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\extractor\classify.py", line 57, in classify_cell_bits
+    raise RuntimeError("Template matching selected but templates not found in tests/data/")
+RuntimeError: Template matching selected but templates not found in tests/data/
+______________________ TestPipeline.test_pitch_detection ______________________
+
+self = <test_pipeline.TestPipeline object at 0x000002DFF1B57220>
+
+    def test_pitch_detection(self):
+        """Test pitch detection from projections."""
+        # Create test projection with known periodicity
+        projection = np.zeros(100)
+        for i in range(0, 100, 15):  # Period of 15
+            projection[i:i+3] = 1
+    
+>       pitch = detect_pitch_from_projection(
+            projection.reshape(-1, 1),  # Reshape for 2D
+            axis=0,
+            min_pitch=10,
+            max_pitch=20,
+            expected_pitch=15,
+            tolerance=2
+        )
+E       TypeError: detect_pitch_from_projection() got an unexpected keyword argument 'min_pitch'
+
+binary_extractor\tests\test_pipeline.py:134: TypeError
+____________________ TestPipeline.test_cell_classification ____________________
+
+self = <test_pipeline.TestPipeline object at 0x000002DFF1B57430>
+
+    def test_cell_classification(self):
+        """Test cell classification."""
+        # Test cell with mostly white pixels (should be "1")
+        cell_bw = np.ones((10, 10), dtype=np.uint8) * 255
+        cell_hsv = np.zeros((10, 10, 3), dtype=np.uint8)
+        cell_hsv[:, :, 1] = 128  # Medium saturation
+        cell_hsv[:, :, 2] = 128  # Medium value
+    
+>       result = classify_single_cell(cell_bw, cell_hsv, self.cfg['classification'])
+E       KeyError: 'classification'
+
+binary_extractor\tests\test_pipeline.py:154: KeyError
+___________________ TestPipeline.test_classify_matrix_shape ___________________
+
+self = <test_pipeline.TestPipeline object at 0x000002DFF1B57640>
+
+    def test_classify_matrix_shape(self):
+        """Test that classify_cell_bits returns correct matrix shapes, dtypes, and value ranges."""
+        # Use a simple test image and grid
+        img = np.zeros((40, 40, 3), dtype=np.uint8)
+        bw = np.zeros((40, 40), dtype=np.uint8)
+        overlay = np.zeros((40, 40), dtype=np.uint8)
+        rows = [5, 15, 25, 35]
+        cols = [5, 15, 25, 35]
+        cfg = load_config()
+>       cells, bits, conf = classify_cell_bits(img, bw, overlay, rows, cols, cfg, return_matrix=True)
+
+binary_extractor\tests\test_pipeline.py:177: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+original_img = array([[[0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0],
+        ...,
+        [0, 0, 0],
+        [0, 0, 0],
+        [0...     [0, 0, 0],
+        ...,
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0]]], shape=(40, 40, 3), dtype=uint8)
+bw_image = array([[0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0]], shape=(40, 40), dtype=uint8)
+overlay_mask = array([[0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0]], shape=(40, 40), dtype=uint8)
+rows = [5, 15, 25, 35], cols = [5, 15, 25, 35]
+cfg = {'bit_hi': 0.7, 'bit_lo': 0.3, 'blur_sigma': 25, 'col0': 20, ...}
+
+    def classify_cell_bits(
+        original_img: np.ndarray,
+        bw_image: np.ndarray,
+        overlay_mask: np.ndarray,
+        rows: List[int],
+        cols: List[int],
+        cfg: Dict[str, Any],
+        *,
+        return_matrix: bool = False
+    ) -> Any:
+        """
+        Classify each cell as 0, 1, blank, or overlay.
+        Uses template matching if cfg['template_match'] == True.
+        Implements dual-pass thresholding: first pass conservative, second pass looser on blanks.
+        If return_matrix is True, also returns (cells, bits_mat, conf_mat):
+          - bits_mat: np.int8, shape (n_rows, n_cols), 1=one, 0=zero, -1=blank, -2=overlay
+          - conf_mat: np.float32, shape (n_rows, n_cols), confidence per cell (0-1)
+        """
+        n_rows, n_cols = len(rows), len(cols)
+        bits_mat = np.full((n_rows, n_cols), -1, dtype=np.int8)  # -1 = blank
+        conf_mat = np.zeros((n_rows, n_cols), dtype=np.float32)
+        cells = []
+        ocr_backend = cfg.get('ocr_backend', 'heuristic')
+        templates = None
+        if cfg.get('template_match', False):
+            # Load templates from tests/data/
+            template_dir = Path(__file__).parent.parent / 'tests' / 'data'
+            templates = load_templates(template_dir)
+            if not templates or '0' not in templates or '1' not in templates:
+>               raise RuntimeError("Template matching selected but templates not found in tests/data/")
+E               RuntimeError: Template matching selected but templates not found in tests/data/
+
+binary_extractor\extractor\classify.py:57: RuntimeError
+---------------------------- Captured stdout call -----------------------------
+[DEBUG] Looking for templates in: C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\tests\data
+[DEBUG] Found 0 files for label '0': []
+[DEBUG] Found 0 files for label '1': []
+_________________ TestPipeline.test_minimum_digits_extracted __________________
+
+self = <test_pipeline.TestPipeline object at 0x000002DFF1B57850>
+
+    def test_minimum_digits_extracted(self):
+        """Test that we extract at least N digits from test image."""
+        output_dir = self.temp_dir / "output"
+>       cells = run(self.test_image_path, output_dir, self.cfg)
+
+binary_extractor\tests\test_pipeline.py:188: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+binary_extractor\extractor\pipeline.py:253: in run
+    cells, bits, conf = classify_cell_bits(img, bw, overlay_mask, rows, cols, cfg, return_matrix=True)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+original_img = array([[[128, 255, 128],
+        [128, 255, 128],
+        [128, 255, 128],
+        ...,
+        [128, 255, 128],
+     ...    ...,
+        [128, 255, 128],
+        [128, 255, 128],
+        [128, 255, 128]]], shape=(200, 200, 3), dtype=uint8)
+bw_image = array([[255, 255, 255, ...,   0,   0,   0],
+       [255, 255, 255, ...,   0,   0,   0],
+       [255, 255, 255, ...,   ...       [  0,   0,   0, ...,   0,   0,   0],
+       [  0,   0,   0, ...,   0,   0,   0]], shape=(200, 200), dtype=uint8)
+overlay_mask = array([[0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0]], shape=(200, 200), dtype=uint8)
+rows = [11, 41, 71, 101, 131, 161, ...], cols = [7, 19, 31, 43, 55, 67, ...]
+cfg = {'bit_hi': 0.7, 'bit_lo': 0.3, 'blur_sigma': 25, 'col0': 20, ...}
+
+    def classify_cell_bits(
+        original_img: np.ndarray,
+        bw_image: np.ndarray,
+        overlay_mask: np.ndarray,
+        rows: List[int],
+        cols: List[int],
+        cfg: Dict[str, Any],
+        *,
+        return_matrix: bool = False
+    ) -> Any:
+        """
+        Classify each cell as 0, 1, blank, or overlay.
+        Uses template matching if cfg['template_match'] == True.
+        Implements dual-pass thresholding: first pass conservative, second pass looser on blanks.
+        If return_matrix is True, also returns (cells, bits_mat, conf_mat):
+          - bits_mat: np.int8, shape (n_rows, n_cols), 1=one, 0=zero, -1=blank, -2=overlay
+          - conf_mat: np.float32, shape (n_rows, n_cols), confidence per cell (0-1)
+        """
+        n_rows, n_cols = len(rows), len(cols)
+        bits_mat = np.full((n_rows, n_cols), -1, dtype=np.int8)  # -1 = blank
+        conf_mat = np.zeros((n_rows, n_cols), dtype=np.float32)
+        cells = []
+        ocr_backend = cfg.get('ocr_backend', 'heuristic')
+        templates = None
+        if cfg.get('template_match', False):
+            # Load templates from tests/data/
+            template_dir = Path(__file__).parent.parent / 'tests' / 'data'
+            templates = load_templates(template_dir)
+            if not templates or '0' not in templates or '1' not in templates:
+>               raise RuntimeError("Template matching selected but templates not found in tests/data/")
+E               RuntimeError: Template matching selected but templates not found in tests/data/
+
+binary_extractor\extractor\classify.py:57: RuntimeError
+---------------------------- Captured stdout call -----------------------------
+[PIPELINE] Starting run() with image_path=C:\Users\natha\AppData\Local\Temp\tmpwyuxfaqr\test_image.png, out_dir=C:\Users\natha\AppData\Local\Temp\tmpwyuxfaqr\output
+[PIPELINE] Loaded config: {'use_color_space': 'HSV_S', 'blur_sigma': 25, 'threshold': {'method': 'otsu', 'adaptive_C': 4, 'sauvola_window_size': 15, 'sauvola_k': 0.2}, 'morph_k': 3, 'morph_iterations': 2, 'use_mahotas_thin': False, 'row_pitch': None, 'col_pitch': None, 'row0': 50, 'col0': 20, 'bit_hi': 0.7, 'bit_lo': 0.3, 'overlay': {'saturation_threshold': 40, 'value_threshold': 180, 'cell_coverage_threshold': 0.2, 'dilate_pixels': 2}, 'template_match': True, 'tm_thresh': 0.4, 'save_debug': True, 'debug_artifacts': ['bw_mask.png', 'silver_mask.png', 'grid_overlay.png', 'cells_color.png', 'cyan_channel.png', 'gaussian_subtracted.png'], 'output': {'csv_encoding': 'utf-8'}}
+[PIPELINE] Output directory ensured: C:\Users\natha\AppData\Local\Temp\tmpwyuxfaqr\output
+[PIPELINE] Image loaded: shape=(200, 200, 3)
+[PIPELINE] Channel extracted: HSV_S
+[PIPELINE] Background subtraction done
+[PIPELINE] Thresholding done
+[PIPELINE] Morphology done
+[PIPELINE] Overlay mask created
+[PIPELINE] Debug artifacts saved
+[GRID] Brute-force grid search: best_row0=11, best_col0=7, row_pitch=30, col_pitch=12, confident_cells=119
+[PIPELINE] Grid detected (auto): rows=7, cols=17
+[DEBUG] Looking for templates in: C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\tests\data
+[DEBUG] Found 0 files for label '0': []
+[DEBUG] Found 0 files for label '1': []
+[PIPELINE] ERROR: Template matching selected but templates not found in tests/data/
+---------------------------- Captured stderr call -----------------------------
+Traceback (most recent call last):
+  File "C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\extractor\pipeline.py", line 253, in run
+    cells, bits, conf = classify_cell_bits(img, bw, overlay_mask, rows, cols, cfg, return_matrix=True)
+  File "C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\extractor\classify.py", line 57, in classify_cell_bits
+    raise RuntimeError("Template matching selected but templates not found in tests/data/")
+RuntimeError: Template matching selected but templates not found in tests/data/
+_____________________ TestPipeline.test_csv_output_format _____________________
+
+self = <test_pipeline.TestPipeline object at 0x000002DFF1B57100>
+
+    def test_csv_output_format(self):
+        """Test CSV output format."""
+        output_dir = self.temp_dir / "output"
+>       cells = run(self.test_image_path, output_dir, self.cfg)
+
+binary_extractor\tests\test_pipeline.py:199: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+binary_extractor\extractor\pipeline.py:253: in run
+    cells, bits, conf = classify_cell_bits(img, bw, overlay_mask, rows, cols, cfg, return_matrix=True)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+original_img = array([[[128, 255, 128],
+        [128, 255, 128],
+        [128, 255, 128],
+        ...,
+        [128, 255, 128],
+     ...    ...,
+        [128, 255, 128],
+        [128, 255, 128],
+        [128, 255, 128]]], shape=(200, 200, 3), dtype=uint8)
+bw_image = array([[255, 255, 255, ...,   0,   0,   0],
+       [255, 255, 255, ...,   0,   0,   0],
+       [255, 255, 255, ...,   ...       [  0,   0,   0, ...,   0,   0,   0],
+       [  0,   0,   0, ...,   0,   0,   0]], shape=(200, 200), dtype=uint8)
+overlay_mask = array([[0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       ...,
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0],
+       [0, 0, 0, ..., 0, 0, 0]], shape=(200, 200), dtype=uint8)
+rows = [11, 41, 71, 101, 131, 161, ...], cols = [7, 19, 31, 43, 55, 67, ...]
+cfg = {'bit_hi': 0.7, 'bit_lo': 0.3, 'blur_sigma': 25, 'col0': 20, ...}
+
+    def classify_cell_bits(
+        original_img: np.ndarray,
+        bw_image: np.ndarray,
+        overlay_mask: np.ndarray,
+        rows: List[int],
+        cols: List[int],
+        cfg: Dict[str, Any],
+        *,
+        return_matrix: bool = False
+    ) -> Any:
+        """
+        Classify each cell as 0, 1, blank, or overlay.
+        Uses template matching if cfg['template_match'] == True.
+        Implements dual-pass thresholding: first pass conservative, second pass looser on blanks.
+        If return_matrix is True, also returns (cells, bits_mat, conf_mat):
+          - bits_mat: np.int8, shape (n_rows, n_cols), 1=one, 0=zero, -1=blank, -2=overlay
+          - conf_mat: np.float32, shape (n_rows, n_cols), confidence per cell (0-1)
+        """
+        n_rows, n_cols = len(rows), len(cols)
+        bits_mat = np.full((n_rows, n_cols), -1, dtype=np.int8)  # -1 = blank
+        conf_mat = np.zeros((n_rows, n_cols), dtype=np.float32)
+        cells = []
+        ocr_backend = cfg.get('ocr_backend', 'heuristic')
+        templates = None
+        if cfg.get('template_match', False):
+            # Load templates from tests/data/
+            template_dir = Path(__file__).parent.parent / 'tests' / 'data'
+            templates = load_templates(template_dir)
+            if not templates or '0' not in templates or '1' not in templates:
+>               raise RuntimeError("Template matching selected but templates not found in tests/data/")
+E               RuntimeError: Template matching selected but templates not found in tests/data/
+
+binary_extractor\extractor\classify.py:57: RuntimeError
+---------------------------- Captured stdout call -----------------------------
+[PIPELINE] Starting run() with image_path=C:\Users\natha\AppData\Local\Temp\tmpswd_8_g1\test_image.png, out_dir=C:\Users\natha\AppData\Local\Temp\tmpswd_8_g1\output
+[PIPELINE] Loaded config: {'use_color_space': 'HSV_S', 'blur_sigma': 25, 'threshold': {'method': 'otsu', 'adaptive_C': 4, 'sauvola_window_size': 15, 'sauvola_k': 0.2}, 'morph_k': 3, 'morph_iterations': 2, 'use_mahotas_thin': False, 'row_pitch': None, 'col_pitch': None, 'row0': 50, 'col0': 20, 'bit_hi': 0.7, 'bit_lo': 0.3, 'overlay': {'saturation_threshold': 40, 'value_threshold': 180, 'cell_coverage_threshold': 0.2, 'dilate_pixels': 2}, 'template_match': True, 'tm_thresh': 0.4, 'save_debug': True, 'debug_artifacts': ['bw_mask.png', 'silver_mask.png', 'grid_overlay.png', 'cells_color.png', 'cyan_channel.png', 'gaussian_subtracted.png'], 'output': {'csv_encoding': 'utf-8'}}
+[PIPELINE] Output directory ensured: C:\Users\natha\AppData\Local\Temp\tmpswd_8_g1\output
+[PIPELINE] Image loaded: shape=(200, 200, 3)
+[PIPELINE] Channel extracted: HSV_S
+[PIPELINE] Background subtraction done
+[PIPELINE] Thresholding done
+[PIPELINE] Morphology done
+[PIPELINE] Overlay mask created
+[PIPELINE] Debug artifacts saved
+[GRID] Brute-force grid search: best_row0=11, best_col0=7, row_pitch=30, col_pitch=12, confident_cells=119
+[PIPELINE] Grid detected (auto): rows=7, cols=17
+[DEBUG] Looking for templates in: C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\tests\data
+[DEBUG] Found 0 files for label '0': []
+[DEBUG] Found 0 files for label '1': []
+[PIPELINE] ERROR: Template matching selected but templates not found in tests/data/
+---------------------------- Captured stderr call -----------------------------
+Traceback (most recent call last):
+  File "C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\extractor\pipeline.py", line 253, in run
+    cells, bits, conf = classify_cell_bits(img, bw, overlay_mask, rows, cols, cfg, return_matrix=True)
+  File "C:\Users\natha\mibera-satoshi-anaylzer\binary_extractor\extractor\classify.py", line 57, in classify_cell_bits
+    raise RuntimeError("Template matching selected but templates not found in tests/data/")
+RuntimeError: Template matching selected but templates not found in tests/data/
+__________________ TestConfiguration.test_config_parameters ___________________
+
+self = <test_pipeline.TestConfiguration object at 0x000002DFF1B57910>
+
+    def test_config_parameters(self):
+        """Test that all required config parameters exist."""
+        cfg = load_config()
+    
+        required_keys = [
+            'blur_sigma', 'adaptive', 'adaptive_C', 'morph_k',
+            'grid_detection', 'classification', 'expected_pitch', 'output'
+        ]
+    
+        for key in required_keys:
+>           assert key in cfg, f"Missing config key: {key}"
+E           AssertionError: Missing config key: adaptive
+E           assert 'adaptive' in {'bit_hi': 0.7, 'bit_lo': 0.3, 'blur_sigma': 25, 'col0': 20, ...}
+
+binary_extractor\tests\test_pipeline.py:232: AssertionError
+______________ TestConfiguration.test_classification_thresholds _______________
+
+self = <test_pipeline.TestConfiguration object at 0x000002DFF1B57AF0>
+
+    def test_classification_thresholds(self):
+        """Test classification threshold configuration."""
+        cfg = load_config()
+>       class_cfg = cfg['classification']
+E       KeyError: 'classification'
+
+binary_extractor\tests\test_pipeline.py:237: KeyError
+============================== warnings summary ===============================
+test_color_spaces.py::test_color_spaces
+  C:\Program Files\Python310\lib\site-packages\_pytest\python.py:161: PytestReturnNotNoneWarning: Test functions should return None, but test_color_spaces.py::test_color_spaces returned <class 'list'>.
+  Did you mean to use `assert` instead of `return`?
+  See https://docs.pytest.org/en/stable/how-to/assert.html#return-not-none for more information.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED binary_extractor/tests/test_pipeline.py::TestPipeline::test_load_config
+FAILED binary_extractor/tests/test_pipeline.py::TestPipeline::test_pipeline_basic
+FAILED binary_extractor/tests/test_pipeline.py::TestPipeline::test_pitch_detection
+FAILED binary_extractor/tests/test_pipeline.py::TestPipeline::test_cell_classification
+FAILED binary_extractor/tests/test_pipeline.py::TestPipeline::test_classify_matrix_shape
+FAILED binary_extractor/tests/test_pipeline.py::TestPipeline::test_minimum_digits_extracted
+FAILED binary_extractor/tests/test_pipeline.py::TestPipeline::test_csv_output_format
+FAILED binary_extractor/tests/test_pipeline.py::TestConfiguration::test_config_parameters
+FAILED binary_extractor/tests/test_pipeline.py::TestConfiguration::test_classification_thresholds
+=================== 9 failed, 3 passed, 1 warning in 4.10s ====================

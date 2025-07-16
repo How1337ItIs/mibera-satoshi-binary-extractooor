@@ -1,8 +1,10 @@
-bit_hi: 0.70
-bit_lo: 0.35
-blur_sigma: 15
-col0: 10
-col_pitch: null
+bit_hi: 0.70         # upper threshold for '1' bit classification
+bit_lo: 0.35         # lower threshold for '0' bit classification
+blur_sigma: 15       # Gaussian blur sigma for background subtraction
+super_resolution: true   # enable Real-ESRGAN super-resolution pre-pass
+sr_binary: realesrgan-ncnn-vulkan  # path to Real-ESRGAN binary
+col0: 10             # grid origin (column)
+col_pitch: null      # grid column pitch (null = auto)
 debug_artifacts:
 - bw_mask.png
 - silver_mask.png
@@ -10,24 +12,28 @@ debug_artifacts:
 - cells_color.png
 - cyan_channel.png
 - gaussian_subtracted.png
-morph_iterations: 2
-morph_k: 3
+morph_iterations: 2  # morphology: number of close iterations
+morph_k: 3           # morphology: kernel size
 output:
-  csv_encoding: utf-8
+  csv_encoding: utf-8  # encoding for CSV outputs
 overlay:
-  cell_coverage_threshold: 0.2
-  dilate_pixels: 3
-  saturation_threshold: 25
-  value_threshold: 190
-row0: 40
-row_pitch: null
-save_debug: true
-template_match: true
+  cell_coverage_threshold: 0.2  # fraction of cell masked to call 'overlay'
+  dilate_pixels: 3              # dilation for overlay mask
+  saturation_threshold: 25      # HSV S threshold for overlay
+  value_threshold: 190          # HSV V threshold for overlay
+row0: 40             # grid origin (row)
+row_pitch: null      # grid row pitch (null = auto)
+save_debug: true     # save debug images
+template_match: true # enable template matching fallback
 threshold:
-  adaptive_C: 2
-  method: adaptive
-  sauvola_k: 0.2
-  sauvola_window_size: 15
-tm_thresh: 0.45
-use_color_space: HSV_S
-use_mahotas_thin: false
+  method: region     # region = blockwise Otsu/Sauvola, best for variable backgrounds
+  adaptive_C: 2      # C for adaptive threshold (if used)
+  sauvola_k: 0.2     # k for Sauvola threshold (if used)
+  sauvola_window_size: 15  # window size for Sauvola (if used)
+adap_block: 64       # block size for region-adaptive thresholding
+adap_sigma: 12       # stdev threshold for Otsu/Sauvola switch
+html_report: true    # generate HTML summary after extraction
+tm_thresh: 0.45      # template match threshold
+use_color_space: HSV_S  # channel for digit extraction
+use_mahotas_thin: false # enable skeletonization (mahotas.thin)
+template_harvest_n: 3   # number of high-confidence templates to harvest per digit (0/1)

@@ -472,3 +472,79 @@ The Satoshi Poster Binary Extraction project is a research-driven, highly config
 ---
 
 *Sections 4–12 to be expanded with detailed code, methods, research, findings, lessons, and future directions as per the outline.* 
+
+## 11. Guidance for Future Agents and Researchers
+
+### Getting Started
+- **Clone the repository** and ensure all dependencies are installed (see `README.md`).
+- **Verify the poster image** is present at the project root as either `satoshi (1).png` or `satoshi_poster.png` (use the latter if your environment dislikes spaces/parentheses).
+- **Familiarize yourself with the codebase structure** (see Section 3 and `AGENTS.MD`).
+- **Review the latest logs and project report** (`COMPLETE_PROJECT_REPORT.md`) to understand the current state and recent changes.
+- **Run the pipeline and tests** as described in the README and relevant scripts.
+
+### Following the Logging and Documentation Protocol
+- **Log every experiment, change, and result** in a dedicated markdown file, following the established protocol (date, agent, context, rationale, implementation, results, impact).
+- **Attribute all work** to the responsible agent and date entries for traceability.
+- **Update the TODO list and logs** as you progress through tasks or experiments.
+- **Include critical warnings and honest assessment** in all summary and analysis files.
+- **Regularly update the single source of truth report** (`COMPLETE_PROJECT_REPORT.md`) to reflect new findings and project status.
+
+### Proposing and Documenting New Research
+- **Use the agent workflow and PR protocol** for all major changes (see `AGENTS.MD`).
+- **Document new experiments or features** in a dedicated markdown log, and summarize key findings in the project report.
+- **Coordinate with other agents** to avoid conflicts and ensure smooth collaboration.
+- **Reference all relevant files, logs, and data** in your documentation for reproducibility.
+
+### Best Practices for Reproducibility and Honest Reporting
+- **Expose all parameters** in `cfg.yaml` or relevant config files for full configurability.
+- **Validate claims with visual/manual inspection** or ground truth, not just internal metrics.
+- **Be transparent about limitations, setbacks, and failed experiments**—these are valuable for future progress.
+- **Use clear, descriptive filenames and section headers** for easy navigation.
+- **Keep the documentation and logs up to date** for the benefit of all collaborators and future agents.
+
+### Final Advice
+- **When in doubt, document it.** Future agents will thank you.
+- **Honest validation and exhaustive logging** are the foundation of this project’s integrity and progress.
+- **Build on what’s here, but don’t be afraid to challenge assumptions or try new approaches.**
+
+--- 
+
+## 12. Appendix / Additional Context
+
+### Historical Notes and Project Evolution
+- The project began as an attempt to extract every visible bit from the Satoshi Nakamoto poster for cryptographic and historical analysis.
+- Early versions relied on hardcoded parameters and optimistic internal metrics, which were later replaced by config-driven, reproducible, and honestly validated methods.
+- The agent-based workflow (Cursor, Claude, Codex) was adopted to ensure clear division of labor, reproducibility, and robust documentation.
+- The project’s philosophy evolved to prioritize honest validation, exhaustive logging, and transparency over “best possible” numbers.
+
+### Notable External References and Related Work
+- Satoshi Nakamoto poster and its cryptographic lore: [https://nakamotoposter.com/](https://nakamotoposter.com/)
+- OpenCV documentation (image processing): [https://docs.opencv.org/](https://docs.opencv.org/)
+- Scikit-image documentation: [https://scikit-image.org/docs/](https://scikit-image.org/docs/)
+- Bitcoin whitepaper: [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+- Steganography and cryptanalysis resources: [Wikipedia: Steganography](https://en.wikipedia.org/wiki/Steganography), [Wikipedia: Cryptanalysis](https://en.wikipedia.org/wiki/Cryptanalysis)
+
+### Additional Context and Guidance
+- If you encounter missing files, check the project’s README and AGENTS.MD for setup and troubleshooting tips.
+- For agents or scripts that struggle with filenames containing spaces or parentheses, use the Linux-friendly `satoshi_poster.png`.
+- All deleted or deprecated files are tracked in version control and referenced in the project logs for historical context.
+- For a full experiment and file history, consult the git log and markdown logs in `test_results/` and `documentation/`.
+
+### Contact and Collaboration
+- For questions, contributions, or collaboration, open an issue or pull request on the project repository.
+- All agents and contributors are encouraged to document their work and share lessons learned for the benefit of future researchers.
+
+---
+
+*End of Complete Project Report. This document is the single source of truth for the Satoshi Poster Binary Extraction project and should be updated with all major changes, findings, and lessons going forward.* 
+
+---
+
+## Changelog
+
+### Recent Additions
+- **Region-Adaptive Thresholding:**
+  Blockwise Otsu/Sauvola selection for improved accuracy in challenging regions.
+- **Self-Contained HTML Report:**
+  Generates a single-file HTML summary with all key stats and overlays inlined.
+- **Configurable via `cfg.yaml`**; see pipeline documentation for details. 
