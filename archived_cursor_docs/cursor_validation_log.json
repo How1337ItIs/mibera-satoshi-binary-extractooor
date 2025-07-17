@@ -1,0 +1,515 @@
+[
+  {
+    "timestamp": "2025-07-16T14:48:16.692954",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 14,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r14_c14_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:17.872593",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 14,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r14_c14_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:19.226817",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 14,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r14_c14_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:20.263602",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 15,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r14_c15_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:21.329933",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 15,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r14_c15_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:22.581467",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 15,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r14_c15_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:23.903461",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 16,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r14_c16_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:25.093541",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 16,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r14_c16_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:26.147933",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 14,
+      "col_pitch": 16,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r14_c16_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:27.288260",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 14,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r15_c14_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:28.260455",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 14,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r15_c14_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:29.344375",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 14,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r15_c14_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:30.437020",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 15,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r15_c15_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:31.459904",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 15,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r15_c15_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:32.491720",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 15,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r15_c15_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:33.346962",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 16,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r15_c16_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:34.179019",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 16,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r15_c16_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:35.174784",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 15,
+      "col_pitch": 16,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r15_c16_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:36.408279",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 14,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r16_c14_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:37.391474",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 14,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r16_c14_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:38.188351",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 14,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r16_c14_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:38.977337",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 15,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r16_c15_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:39.766866",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 15,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r16_c15_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:40.597060",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 15,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r16_c15_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:41.662186",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 16,
+      "row0": 885,
+      "col0": 180
+    },
+    "output_file": "cursor_variation_r16_c16_r0885_c0180.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:42.522196",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 16,
+      "row0": 890,
+      "col0": 185
+    },
+    "output_file": "cursor_variation_r16_c16_r0890_c0185.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  },
+  {
+    "timestamp": "2025-07-16T14:48:43.346924",
+    "agent": "cursor",
+    "parameters": {
+      "row_pitch": 16,
+      "col_pitch": 16,
+      "row0": 895,
+      "col0": 190
+    },
+    "output_file": "cursor_variation_r16_c16_r0895_c0190.png",
+    "base_comparison": {
+      "claude_row_pitch": 15,
+      "claude_col_pitch": 12,
+      "claude_row0": 890,
+      "claude_col0": 185
+    },
+    "visual_notes": "Generated for manual inspection and comparison",
+    "next_action": "Manual visual verification required"
+  }
+]

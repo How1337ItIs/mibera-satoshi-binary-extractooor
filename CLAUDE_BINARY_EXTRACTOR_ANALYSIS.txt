@@ -1,0 +1,23 @@
+=== CLAUDE'S BINARY EXTRACTOR ANALYSIS ===
+Author: Claude Code Agent
+Sophisticated binary_extractor pipeline results
+
+Grid Detection Results:
+  - Auto-detected grid: 54 rows x 50 cols = 2700 cells
+  - Row pitch: 31 pixels
+  - Col pitch: 25 pixels
+  - Origin: (1, 5)
+
+Extraction Results:
+  - 0: 1790 (66.3%)
+  - 1: 790 (29.3%)
+  - blank: 61 (2.3%)
+  - overlay: 59 (2.2%)
+
+Comparison with Manual Results:
+  - Manual coordinates: y=69.6, x=37.0, spacing=17.9
+  - Grid equivalent: row=2.2, col=1.3
+
+Readable Text Found:
+  - Row 11: '[0]G[226]8[0]'
+  - Row 13: '[0]o[253]p[0]'
