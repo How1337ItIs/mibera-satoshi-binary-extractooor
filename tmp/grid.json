@@ -1,0 +1,33 @@
+{
+  "grid_parameters": {
+    "col_pitch_px": 52,
+    "row_pitch_px": 5,
+    "scale_factor": 0.301,
+    "logical_col_pitch": 172.9,
+    "logical_row_pitch": 16.6,
+    "image_shape": [1666, 1232]
+  },
+  "optimized_origin": {
+    "row": 0,
+    "col": 48,
+    "ink_density": 233.7
+  },
+  "sampling": {
+    "method": "6x6_median",
+    "threshold": 30.2,
+    "threshold_type": "sauvola",
+    "samples_count": 437
+  },
+  "canonical_dump": {
+    "filename": "canonical_raw_bit_dump.csv",
+    "sha256": "a1ea9529943d8aeb3c3f4becffb869cd44954560ee1b8033d2133d8b00dd37bb",
+    "total_bits": 437,
+    "ones_ratio": 0.309
+  },
+  "sanity_validation": {
+    "ones_ratio_pass": false,
+    "first_bytes_pass": false,
+    "position_pass": true,
+    "total_passed": 1
+  }
+} 

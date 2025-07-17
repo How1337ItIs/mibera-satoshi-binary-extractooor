@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-07-16T21:08:29.676740",
+  "extraction_summary": {
+    "total_bytes": 143,
+    "hash_candidates": 2,
+    "max_leading_zeros": 9
+  },
+  "hash_candidates": [
+    {
+      "position": 8,
+      "hash": "000000000100008600000c00003f0000fe0003f80007f8039ff4039ffe077ff8",
+      "leading_zeros": 9
+    },
+    {
+      "position": 9,
+      "hash": "0000000100008600000c00003f0000fe0003f80007f8039ff4039ffe077ff801",
+      "leading_zeros": 7
+    }
+  ],
+  "bitcoin_matches": [
+    {
+      "candidate_position": 8,
+      "bitcoin_type": "block_1",
+      "similarity_chars": 14,
+      "similarity_percent": 21.875
+    },
+    {
+      "candidate_position": 8,
+      "bitcoin_type": "block_2",
+      "similarity_chars": 13,
+      "similarity_percent": 20.3125
+    },
+    {
+      "candidate_position": 9,
+      "bitcoin_type": "genesis_block",
+      "similarity_chars": 13,
+      "similarity_percent": 20.3125
+    },
+    {
+      "candidate_position": 9,
+      "bitcoin_type": "block_2",
+      "similarity_chars": 12,
+      "similarity_percent": 18.75
+    },
+    {
+      "candidate_position": 8,
+      "bitcoin_type": "genesis_block",
+      "similarity_chars": 11,
+      "similarity_percent": 17.1875
+    }
+  ],
+  "validation_status": "CONFIRMED"
+}

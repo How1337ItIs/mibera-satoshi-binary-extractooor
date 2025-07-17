@@ -1,0 +1,133 @@
+{
+  "best_overall": null,
+  "all_results": [
+    {
+      "image": "original_eq",
+      "threshold": 127,
+      "patch_size": 3,
+      "pitch": [
+        31,
+        53
+      ],
+      "origin": [
+        110,
+        60
+      ],
+      "score": 0.9375,
+      "bits": "0100111101001110",
+      "decoded": "ON"
+    },
+    {
+      "image": "cyan",
+      "threshold": 127,
+      "patch_size": 3,
+      "pitch": [
+        31,
+        53
+      ],
+      "origin": [
+        50,
+        50
+      ],
+      "score": 0.9375,
+      "bits": "0100111101101111",
+      "decoded": "Oo"
+    },
+    {
+      "image": "cyan_morph",
+      "threshold": 127,
+      "patch_size": 3,
+      "pitch": [
+        31,
+        53
+      ],
+      "origin": [
+        68,
+        48
+      ],
+      "score": 0.9375,
+      "bits": "0100111101101111",
+      "decoded": "Oo"
+    },
+    {
+      "image": "bw_mask",
+      "threshold": 100,
+      "patch_size": 3,
+      "pitch": [
+        28,
+        20
+      ],
+      "origin": [
+        74,
+        36
+      ],
+      "score": 0.875,
+      "bits": "0110110101101110",
+      "decoded": "mn"
+    },
+    {
+      "image": "bw_mask_morph",
+      "threshold": 100,
+      "patch_size": 3,
+      "pitch": [
+        28,
+        20
+      ],
+      "origin": [
+        74,
+        36
+      ],
+      "score": 0.875,
+      "bits": "0110110101101110",
+      "decoded": "mn"
+    },
+    {
+      "image": "bw_mask_eq",
+      "threshold": 100,
+      "patch_size": 3,
+      "pitch": [
+        28,
+        20
+      ],
+      "origin": [
+        74,
+        36
+      ],
+      "score": 0.875,
+      "bits": "0110110101101110",
+      "decoded": "mn"
+    },
+    {
+      "image": "gaussian_eq",
+      "threshold": 100,
+      "patch_size": 3,
+      "pitch": [
+        31,
+        53
+      ],
+      "origin": [
+        101,
+        60
+      ],
+      "score": 0.875,
+      "bits": "1100111101001110",
+      "decoded": "\u00cfN"
+    },
+    {
+      "image": "cyan_eq",
+      "threshold": 100,
+      "patch_size": 3,
+      "pitch": [
+        31,
+        25
+      ],
+      "origin": [
+        80,
+        20
+      ],
+      "score": 0.875,
+      "bits": "0100111011101110",
+      "decoded": "N\u00ee"
+    }
+  ]
+}

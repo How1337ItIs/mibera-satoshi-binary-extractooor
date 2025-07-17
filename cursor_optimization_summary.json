@@ -1,0 +1,19 @@
+{
+  "original": {
+    "zeros": 34,
+    "ones": 490,
+    "total": 524,
+    "zero_percentage": 6.488549618320611
+  },
+  "optimized": {
+    "zeros": 1088,
+    "ones": 352,
+    "total": 1440,
+    "zero_percentage": 75.55555555555556
+  },
+  "improvement": {
+    "factor": 32.0,
+    "additional_zeros": 1054,
+    "percentage_change": 69.06700593723494
+  }
+}

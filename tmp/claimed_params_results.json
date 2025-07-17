@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-07-17",
+  "analysis_type": "claimed_params_test",
+  "parameters": {
+    "position": [
+      110,
+      56
+    ],
+    "pitch": [
+      30,
+      52
+    ],
+    "threshold": 45
+  },
+  "results": {
+    "bits_extracted": 416,
+    "ones_ratio": 0.7211538461538461,
+    "entropy": 0.8538738465459896
+  },
+  "assessment": "Direct test of claimed good parameters"
+}

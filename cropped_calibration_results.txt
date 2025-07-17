@@ -1,0 +1,5 @@
+=== CROPPED IMAGE CALIBRATION RESULTS ===
+Best parameters: {'spacing': 17, 'threshold': 85, 'start_y': 20}
+Extracted text:  [0][0][0][0][1][128][0][0][0]
+Score: 2/13
+Raw bits: 00100000000000000000000000000000000000000000000110000000000000000000000000000000

@@ -1,0 +1,67 @@
+[
+  {
+    "timestamp": "2025-07-16T02:36:23.734183",
+    "action": "Initialized SystematicExtractor",
+    "data": {
+      "image_shape": [
+        1666,
+        1232,
+        3
+      ],
+      "initial_grid_params": {
+        "row_pitch": 31,
+        "col_pitch": 25,
+        "row0": 1,
+        "col0": 5,
+        "confidence": 0.0
+      }
+    }
+  },
+  {
+    "timestamp": "2025-07-16T02:36:23.734183",
+    "action": "Starting manual grid calibration",
+    "data": {
+      "method": "systematic_parameter_sweep",
+      "goal": "find_optimal_grid_alignment"
+    }
+  },
+  {
+    "timestamp": "2025-07-16T02:36:31.316242",
+    "action": "Grid calibration complete",
+    "data": {
+      "best_params": {
+        "row_pitch": 33,
+        "col_pitch": 26,
+        "row0": 5,
+        "col0": 3,
+        "score": 1.3502698778716564
+      },
+      "best_score": 1.3502698778716564,
+      "total_tests": 1260
+    }
+  },
+  {
+    "timestamp": "2025-07-16T02:36:32.373296",
+    "action": "Calibration visualization saved",
+    "data": {
+      "file": "documentation/calibration/calibration_analysis.png",
+      "top_score": 1.3502698778716564
+    }
+  },
+  {
+    "timestamp": "2025-07-16T02:36:32.374302",
+    "action": "Creating ground truth dataset",
+    "data": {
+      "num_samples": 50,
+      "method": "manual_annotation"
+    }
+  },
+  {
+    "timestamp": "2025-07-16T02:36:36.335846",
+    "action": "Ground truth dataset created",
+    "data": {
+      "total_samples": 40,
+      "interface_created": true
+    }
+  }
+]

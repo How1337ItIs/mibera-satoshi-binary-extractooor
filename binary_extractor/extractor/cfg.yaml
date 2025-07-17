@@ -43,7 +43,7 @@ overlay:
   dilate_pixels: 2  # dilate overlay mask by N pixels
 
 # Template matching fallback
-template_match: true  # Enable template matching for better accuracy
+template_match: false  # Disable template matching for now, use heuristic
 tm_thresh: 0.4  # Slightly more lenient threshold
 
 # Debug output

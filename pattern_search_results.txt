@@ -1,0 +1,7 @@
+=== PATTERN SEARCH RESULTS ===
+Best match score: 75.0%
+Position: y=70, x_start=35
+Parameters: spacing=18, threshold=80
+Target pattern:    010011110110111000100000011101000110100001100101
+Extracted pattern: 010010110011101000000010001101010110100101001100
+Decoded text: K:[2]5iL

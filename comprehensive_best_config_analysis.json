@@ -1,0 +1,38 @@
+{
+  "timestamp": "2024-01-17",
+  "analysis_type": "comprehensive_best_config_test",
+  "extraction_config": {
+    "position": [
+      110,
+      56
+    ],
+    "pitch": [
+      30,
+      52
+    ],
+    "threshold": 45,
+    "bits_extracted": 416
+  },
+  "basic_statistics": {
+    "ones_ratio": 0.7211538461538461,
+    "entropy": 0.8538738465459896
+  },
+  "ascii_interpretation": {
+    "best_printable_ratio": 0.14,
+    "interpretations": [
+      {
+        "type": "ASCII",
+        "text": ".K.o.......w.?...._...................G......_....",
+        "ratio": 0.14
+      },
+      {
+        "type": "Reversed",
+        "text": ".K.o.......w.?...._...................G......_....",
+        "ratio": 0.14
+      }
+    ]
+  },
+  "string_matches": [],
+  "hex_preview": "fd4bee6fff7fdf7f070707777f3f0f0f0f0f5fffff9f7fff7fffffbfbf0f0f0f070707070f0747bfffffff7fff5fffdf7f1f",
+  "assessment": "Comprehensive analysis of optimal extraction configuration"
+}

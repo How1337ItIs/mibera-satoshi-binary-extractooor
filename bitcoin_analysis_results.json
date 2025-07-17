@@ -1,0 +1,53 @@
+{
+  "analysis_timestamp": "2025-07-16T20:58:55.620434",
+  "hash_analysis": {
+    "candidate_found": true,
+    "leading_zeros": 9,
+    "hash_hex": "000000000100008600000c00003f0000fe0003f80007f8039ff4039ffe077ff8"
+  },
+  "merkle_analysis": {
+    "tree_depth": 8,
+    "leaf_count": 128,
+    "structure": [
+      128,
+      64,
+      32,
+      16,
+      8,
+      4,
+      2,
+      1
+    ]
+  },
+  "genesis_analysis": {
+    "pattern_count": 175,
+    "cluster_count": 23,
+    "first_positions": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      36,
+      37,
+      38,
+      39,
+      40,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  },
+  "timestamp_analysis": {
+    "valid_timestamps": 0,
+    "earliest_date": null,
+    "latest_date": null
+  }
+}

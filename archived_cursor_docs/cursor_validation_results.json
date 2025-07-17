@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-07-16T14:48:45.226115",
+  "agent": "cursor",
+  "validation_type": "corrected_extraction_region",
+  "parameters": {
+    "row_pitch": 15,
+    "col_pitch": 12,
+    "row0": 890,
+    "col0": 185
+  },
+  "results": {
+    "total_cells": 25,
+    "zeros": 0,
+    "ones": 22,
+    "ambiguous": 3,
+    "clear_classifications": 22,
+    "clear_percentage": 88.0
+  },
+  "visual_evidence": [
+    "cursor_validation_cell_0_0.png",
+    "cursor_validation_cell_0_1.png",
+    "cursor_validation_cell_0_2.png",
+    "cursor_validation_cell_0_3.png",
+    "cursor_validation_cell_0_4.png",
+    "cursor_validation_cell_1_0.png",
+    "cursor_validation_cell_1_1.png",
+    "cursor_validation_cell_1_2.png",
+    "cursor_validation_cell_1_3.png",
+    "cursor_validation_cell_1_4.png",
+    "cursor_validation_cell_2_0.png",
+    "cursor_validation_cell_2_1.png",
+    "cursor_validation_cell_2_2.png",
+    "cursor_validation_cell_2_3.png",
+    "cursor_validation_cell_2_4.png",
+    "cursor_validation_cell_3_0.png",
+    "cursor_validation_cell_3_1.png",
+    "cursor_validation_cell_3_2.png",
+    "cursor_validation_cell_3_3.png",
+    "cursor_validation_cell_3_4.png",
+    "cursor_validation_cell_4_0.png",
+    "cursor_validation_cell_4_1.png",
+    "cursor_validation_cell_4_2.png",
+    "cursor_validation_cell_4_3.png",
+    "cursor_validation_cell_4_4.png"
+  ]
+}

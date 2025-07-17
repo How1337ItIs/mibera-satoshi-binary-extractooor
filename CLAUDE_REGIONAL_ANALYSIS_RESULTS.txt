@@ -1,0 +1,65 @@
+=== CLAUDE'S COMPREHENSIVE REGIONAL ANALYSIS ===
+Author: Claude Code Agent
+Insight: Different poster regions need different extraction methods
+
+CURRENT TESTING SCOPE ANALYSIS:
+  Pattern tested: 'On the '
+  Location: {'y': 69.6, 'x': 37.0, 'spacing': 17.9}
+  Bits tested: 48
+  Region characteristics: brightness=25.7, contrast=21.6
+  LIMITATION: Single region/pattern - not representative!
+
+POSTER REGION ANALYSIS:
+  Total regions analyzed: 192
+  Region types found: 8
+  Type distribution:
+    very_dark_medium_contrast: 35 regions
+    very_dark_low_contrast: 35 regions
+    dark_low_contrast: 35 regions
+    dark_medium_contrast: 36 regions
+    medium_medium_contrast: 41 regions
+    dark_high_contrast: 1 regions
+    medium_high_contrast: 3 regions
+    medium_low_contrast: 6 regions
+
+REGIONAL METHOD OPTIMIZATION:
+  very_dark_medium_contrast:
+    Best method: gray_adaptive (1.000)
+    All methods: {'hsv_v_simple': np.float64(0.2416924253756198), 'hsv_v_clahe': np.float64(0.34199427734226295), 'lab_b_channel': np.float64(0.05012658107306327), 'gray_adaptive': np.float64(1.0), 'fft_highpass': np.float64(0.1702307166747266), 'bilateral_filtered': np.float64(0.05318387317746105)}
+  very_dark_low_contrast:
+    Best method: gray_adaptive (1.000)
+    All methods: {'hsv_v_simple': np.float64(0.20286208621180707), 'hsv_v_clahe': np.float64(0.35797945198048603), 'lab_b_channel': np.float64(0.04233719293001982), 'gray_adaptive': np.float64(1.0), 'fft_highpass': np.float64(0.14510854923530547), 'bilateral_filtered': np.float64(0.04389134026530076)}
+  dark_low_contrast:
+    Best method: gray_adaptive (1.000)
+    All methods: {'hsv_v_simple': np.float64(0.2006077425952812), 'hsv_v_clahe': np.float64(0.2800981858053887), 'lab_b_channel': np.float64(0.04278497627895056), 'gray_adaptive': np.float64(1.0), 'fft_highpass': np.float64(0.13202193513050745), 'bilateral_filtered': np.float64(0.04458588792777302)}
+  dark_medium_contrast:
+    Best method: gray_adaptive (1.000)
+    All methods: {'hsv_v_simple': np.float64(0.1588851521125381), 'hsv_v_clahe': np.float64(0.2625029640872768), 'lab_b_channel': np.float64(0.049259152425966624), 'gray_adaptive': np.float64(1.0), 'fft_highpass': np.float64(0.13222771992621413), 'bilateral_filtered': np.float64(0.08335233909135434)}
+  medium_medium_contrast:
+    Best method: gray_adaptive (1.000)
+    All methods: {'hsv_v_simple': np.float64(0.13618167326586672), 'hsv_v_clahe': np.float64(0.2632040652552616), 'lab_b_channel': np.float64(0.05422867424265763), 'gray_adaptive': np.float64(1.0), 'fft_highpass': np.float64(0.17871333893733324), 'bilateral_filtered': np.float64(0.11592751298958852)}
+  medium_high_contrast:
+    Best method: gray_adaptive (0.996)
+    All methods: {'hsv_v_simple': np.float64(0.16893195568973873), 'hsv_v_clahe': np.float64(0.2760604188247637), 'lab_b_channel': np.float64(0.05569179609372252), 'gray_adaptive': np.float64(0.9963096114556326), 'fft_highpass': np.float64(0.20636491765514584), 'bilateral_filtered': np.float64(0.14753184046955115)}
+  medium_low_contrast:
+    Best method: gray_adaptive (1.000)
+    All methods: {'hsv_v_simple': np.float64(0.13514946122379626), 'hsv_v_clahe': np.float64(0.263677882361245), 'lab_b_channel': np.float64(0.05502117125363846), 'gray_adaptive': np.float64(1.0), 'fft_highpass': np.float64(0.10677874326012078), 'bilateral_filtered': np.float64(0.04695939224880476)}
+
+RECOMMENDED TESTING FRAMEWORK:
+  Current issue: Testing only single pattern at one location
+  Solution: Region-specific testing with appropriate methods
+  Implementation:
+    very_dark_medium_contrast: Use gray_adaptive (confidence: 1.000)
+    very_dark_low_contrast: Use gray_adaptive (confidence: 1.000)
+    dark_low_contrast: Use gray_adaptive (confidence: 1.000)
+    dark_medium_contrast: Use gray_adaptive (confidence: 1.000)
+    medium_medium_contrast: Use gray_adaptive (confidence: 1.000)
+    medium_high_contrast: Use gray_adaptive (confidence: 0.996)
+    medium_low_contrast: Use gray_adaptive (confidence: 1.000)
+
+NEXT STEPS:
+1. Expand testing beyond single 'On the ' pattern
+2. Test extraction in light vs dark poster regions
+3. Use region-appropriate methods for each area
+4. Validate across multiple poster locations
+5. Create comprehensive accuracy assessment
