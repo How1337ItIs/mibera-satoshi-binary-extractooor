@@ -2,6 +2,10 @@
 """
 Template-matching extractor for the complete hidden message.
 Based on the proven parameters: position (110,56), pitch (30,52), threshold 45
+
+Created by: Cursor Agent
+Purpose: Automate extraction of the complete hidden message using proven parameters
+Date: 2025-07-17
 """
 
 import cv2

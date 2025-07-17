@@ -1,0 +1,27 @@
+{
+  "verification_timestamp": "2024-01-17",
+  "extraction_config": {
+    "position": [
+      101,
+      53
+    ],
+    "pitch": [
+      31,
+      53
+    ],
+    "threshold": 72
+  },
+  "bits_extracted": 256,
+  "hash_verification": {
+    "hash_found": false,
+    "leading_zeros_be": 0,
+    "leading_zeros_le": 0,
+    "bitcoin_format_valid": null
+  },
+  "raw_data": {
+    "csv_checksum": "a1de643be6b3e7e1845ca65cae430711febdba1c472af296d7f013ba0fa06a45",
+    "ones_ratio": 0.2890625,
+    "total_bits": 256
+  },
+  "verification_status": "QUESTIONABLE"
+}

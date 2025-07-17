@@ -1,0 +1,105 @@
+{
+  "timestamp": "2025-07-17",
+  "analysis_type": "comprehensive_text_search",
+  "search_parameters": {
+    "row_pitch_range": "15-40 (step 2)",
+    "col_pitch_range": "35-65 (step 2)",
+    "start_position_range": "0-40x0-40 (step 2)",
+    "total_configurations": 3
+  },
+  "pattern_matches": {
+    "total_found": 3,
+    "best_match_ratio": 0.6666666666666666,
+    "top_matches": [
+      {
+        "row_pitch": 31,
+        "col_pitch": 39,
+        "start_row": 8,
+        "start_col": 20,
+        "text": "?LL????@",
+        "pattern": "All",
+        "match_ratio": 0.6666666666666666,
+        "matches": 2
+      },
+      {
+        "row_pitch": 33,
+        "col_pitch": 41,
+        "start_row": 12,
+        "start_col": 6,
+        "text": "?LL??@??",
+        "pattern": "All",
+        "match_ratio": 0.6666666666666666,
+        "matches": 2
+      },
+      {
+        "row_pitch": 33,
+        "col_pitch": 41,
+        "start_row": 12,
+        "start_col": 8,
+        "text": "?LL?????",
+        "pattern": "All",
+        "match_ratio": 0.6666666666666666,
+        "matches": 2
+      }
+    ]
+  },
+  "validation_results": {
+    "configurations_validated": 3,
+    "best_quality_score": 0.11156250000000001,
+    "best_printable_ratio": 0.075,
+    "validated_configs": [
+      {
+        "config": {
+          "row_pitch": 33,
+          "col_pitch": 41,
+          "start_row": 12,
+          "start_col": 8,
+          "text": "?LL?????",
+          "pattern": "All",
+          "match_ratio": 0.6666666666666666,
+          "matches": 2
+        },
+        "long_text": "??D??????????>???????G??????????????????",
+        "printable_ratio": 0.075,
+        "ones_ratio": 0.196875,
+        "valid_words": [],
+        "quality_score": 0.11156250000000001
+      },
+      {
+        "config": {
+          "row_pitch": 33,
+          "col_pitch": 41,
+          "start_row": 12,
+          "start_col": 6,
+          "text": "?LL??@??",
+          "pattern": "All",
+          "match_ratio": 0.6666666666666666,
+          "matches": 2
+        },
+        "long_text": "?????????????>??????????????????????????",
+        "printable_ratio": 0.025,
+        "ones_ratio": 0.1625,
+        "valid_words": [],
+        "quality_score": 0.06624999999999999
+      },
+      {
+        "config": {
+          "row_pitch": 31,
+          "col_pitch": 39,
+          "start_row": 8,
+          "start_col": 20,
+          "text": "?LL????@",
+          "pattern": "All",
+          "match_ratio": 0.6666666666666666,
+          "matches": 2
+        },
+        "long_text": "??????????????>?????????????????????????",
+        "printable_ratio": 0.025,
+        "ones_ratio": 0.1125,
+        "valid_words": [],
+        "quality_score": 0.05124999999999999
+      }
+    ]
+  },
+  "assessment": "Comprehensive grid search for specific text patterns"
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2025-07-17",
+  "analysis_type": "refined_grid_detection",
+  "pitch_testing": {
+    "combinations_tested": 6,
+    "best_on_score": 14,
+    "best_pitch": "25x50",
+    "best_origin": [
+      13,
+      18
+    ]
+  },
+  "extraction": {
+    "bits_extracted": 500,
+    "ones_ratio": 0.502,
+    "threshold_used": 56.0,
+    "sample_range": [
+      12.0,
+      221.0
+    ]
+  },
+  "text_validation": {
+    "text": "..@........t........!.............;....._.......O.",
+    "printable_ratio": 0.12,
+    "words_found": []
+  },
+  "top_configurations": [
+    {
+      "pitch": "25x50",
+      "origin": [
+        13,
+        18
+      ],
+      "on_score": 14
+    },
+    {
+      "pitch": "35x60",
+      "origin": [
+        6,
+        56
+      ],
+      "on_score": 14
+    },
+    {
+      "pitch": "31x53",
+      "origin": [
+        12,
+        11
+      ],
+      "on_score": 13
+    },
+    {
+      "pitch": "30x53",
+      "origin": [
+        6,
+        15
+      ],
+      "on_score": 12
+    },
+    {
+      "pitch": "20x40",
+      "origin": [
+        16,
+        23
+      ],
+      "on_score": 11
+    }
+  ],
+  "assessment": "Refined grid detection targeting expected text patterns"
+}

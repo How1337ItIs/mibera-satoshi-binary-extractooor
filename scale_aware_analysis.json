@@ -1,0 +1,5 @@
+{
+  "timestamp": "2025-07-17",
+  "analysis_type": "scale_aware_grid_detection",
+  "grid_parameters": {
+    "col_pitch_px": 

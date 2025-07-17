@@ -1,157 +1,272 @@
 #!/usr/bin/env python3
 """
-Extract the complete hidden message using our best parameters.
+Final message extraction attempt.
+Using all insights gained from the pitch debate resolution.
 """
 
 import cv2
 import numpy as np
+import json
 
-def extract_complete_message():
-    """Extract the complete hidden message using optimized parameters."""
+def final_message_extraction():
+    """Final attempt to extract the hidden message."""
     
-    # Load the poster image
-    img = cv2.imread('satoshi.png')
-    if img is None:
-        img = cv2.imread('satoshi (1).png')
-    if img is None:
-        print("ERROR: Could not load poster image")
-        return
+    print("=== FINAL MESSAGE EXTRACTION ===")
+    print("Using refined methodology post-pitch-debate")
     
-    print(f"Loaded poster image: {img.shape}")
+    # Load the binary mask
+    img = cv2.imread('binary_extractor/output_real_data/bw_mask.png', 0)
+    print(f"Image: {img.shape}")
     
-    # Convert to HSV
-    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    best_results = []
     
-    # Our best parameters from fine-tuning
-    y = 70
-    x_start = 35
-    spacing = 18
-    threshold = 76
+    # Test various grid configurations
+    test_configs = [
+        (31, 53, "Measured from autocorr"),
+        (31, 25, "Binary extractor original"),
+        (30, 24, "Slight variation"),
+        (32, 26, "Slight variation"),
+        (31, 18, "Manual 77.1% config scaled"),
+        (5, 52, "Detected in optimizer"),
+    ]
     
-    print(f"Using optimized parameters: y={y}, x_start={x_start}, spacing={spacing}, threshold={threshold}")
+    for row_pitch, col_pitch, desc in test_configs:
+        print(f"\nTesting: {desc} ({row_pitch}x{col_pitch})")
+        
+        # Find best origin for this pitch
+        best_score = -1
+        best_origin = None
+        best_bits = None
+        
+        # Search origins
+        row_range = range(max(30, 70 - row_pitch), min(120, 70 + row_pitch), 2)
+        col_range = range(max(10, 40 - col_pitch//2), min(100, 40 + col_pitch//2), 2)
+        
+        for row0 in row_range:
+            for col0 in col_range:
+                # Extract first 24 bits (3 characters)
+                bits = extract_bits_at(img, row0, col0, row_pitch, col_pitch, 24)
+                
+                if len(bits) == 24:
+                    # Score this extraction
+                    score = score_extraction(bits)
+                    
+                    if score > best_score:
+                        best_score = score
+                        best_origin = (row0, col0)
+                        best_bits = bits
+        
+        if best_origin:
+            row0, col0 = best_origin
+            decoded = decode_bits(best_bits)
+            
+            print(f"  Best: ({row0}, {col0}) score={best_score:.2f}")
+            print(f"  Text: '{decoded}'")
+            
+            best_results.append({
+                'config': (row_pitch, col_pitch, desc),
+                'origin': best_origin,
+                'score': best_score,
+                'bits': best_bits,
+                'decoded': decoded
+            })
     
-    # Extract the first line (where we found the pattern)
-    print(f"\nExtracting Line 1 at y={y}:")
+    # Find overall best
+    if best_results:
+        best_results.sort(key=lambda x: x['score'], reverse=True)
+        best = best_results[0]
+        
+        print(f"\n=== BEST CONFIGURATION ===")
+        print(f"Config: {best['config'][2]} {best['config'][:2]}")
+        print(f"Origin: {best['origin']}")
+        print(f"Score: {best['score']:.2f}")
+        print(f"Decoded: '{best['decoded']}'")
+        
+        # Extract full message with best config
+        row_pitch, col_pitch = best['config'][:2]
+        row0, col0 = best['origin']
+        
+        full_message = extract_full_message(img, row0, col0, row_pitch, col_pitch)
+        
+        return full_message
+    
+    return None
+
+def extract_bits_at(img, row0, col0, row_pitch, col_pitch, num_bits):
+    """Extract specific number of bits at given configuration."""
     
     bits = []
-    for bit_pos in range(400):  # Extract up to 400 bits (50 characters)
-        x = x_start + (bit_pos * spacing)
-        x_int = int(round(x))
+    
+    for i in range(num_bits):
+        # Calculate position
+        bit_row = i // 8  # Which character row
+        bit_col = i % 8   # Which bit in character
         
-        if x_int >= hsv.shape[1]:
-            break
+        y = row0 + bit_row * row_pitch
+        x = col0 + bit_col * col_pitch
+        
+        if y < img.shape[0] - 3 and x < img.shape[1] - 3:
+            # Sample 5x5 region
+            region = img[max(0, y-2):min(img.shape[0], y+3), 
+                        max(0, x-2):min(img.shape[1], x+3)]
             
-        v_value = hsv[y, x_int, 2]
-        bit = '1' if v_value > threshold else '0'
-        bits.append(bit)
+            if region.size > 0:
+                val = np.median(region)
+                bit = '1' if val > 127 else '0'
+                bits.append(bit)
     
-    bit_string = ''.join(bits)
+    return bits
+
+def score_extraction(bits):
+    """Score an extraction based on how likely it is to be readable text."""
     
-    # Decode as ASCII
-    chars = []
-    for i in range(0, len(bit_string), 8):
-        if i + 8 <= len(bit_string):
-            byte = bit_string[i:i+8]
+    if len(bits) < 8:
+        return 0
+    
+    score = 0
+    
+    # Try to decode and score
+    for i in range(0, len(bits), 8):
+        if i + 8 <= len(bits):
+            byte = ''.join(bits[i:i+8])
             try:
-                char_val = int(byte, 2)
-                if 32 <= char_val <= 126:
-                    chars.append(chr(char_val))
+                val = int(byte, 2)
+                
+                # Score based on character likelihood
+                if 65 <= val <= 90:  # Uppercase letters
+                    score += 3
+                elif 97 <= val <= 122:  # Lowercase letters
+                    score += 3
+                elif val == 32:  # Space
+                    score += 2
+                elif 48 <= val <= 57:  # Digits
+                    score += 2
+                elif 33 <= val <= 126:  # Other printable
+                    score += 1
+                else:  # Non-printable
+                    score -= 2
+                    
+            except:
+                score -= 1
+    
+    return score
+
+def decode_bits(bits):
+    """Decode bits to ASCII string."""
+    
+    chars = []
+    for i in range(0, len(bits), 8):
+        if i + 8 <= len(bits):
+            byte = ''.join(bits[i:i+8])
+            try:
+                val = int(byte, 2)
+                if 32 <= val <= 126:
+                    chars.append(chr(val))
                 else:
-                    chars.append(f'[{char_val}]')
+                    chars.append(f'[{val}]')
             except:
                 chars.append('?')
     
-    text = ''.join(chars)
-    print(f"Line 1 text: {text}")
+    return ''.join(chars)
+
+def extract_full_message(img, row0, col0, row_pitch, col_pitch):
+    """Extract the complete message using best configuration."""
     
-    # Extract additional lines above and below to get the complete message
-    lines = []
-    lines.append({'y': y, 'text': text, 'bits': bit_string})
+    print(f"\n=== EXTRACTING FULL MESSAGE ===")
+    print(f"Using: origin ({row0}, {col0}), pitch {row_pitch}x{col_pitch}")
     
-    # Try lines above and below with the same spacing
-    line_spacing = 25  # Estimate based on previous work
+    # Calculate maximum grid size
+    max_rows = (img.shape[0] - row0) // row_pitch
+    max_cols = (img.shape[1] - col0) // col_pitch
     
-    for line_offset in range(-3, 4):  # 3 lines above and below
-        if line_offset == 0:
-            continue  # Skip the line we already extracted
-            
-        line_y = y + (line_offset * line_spacing)
-        if line_y < 0 or line_y >= hsv.shape[0]:
-            continue
-            
-        print(f"\nExtracting Line {line_offset + 4} at y={line_y}:")
+    print(f"Maximum grid: {max_rows} x {max_cols}")
+    
+    # Extract all bits
+    message_rows = []
+    
+    for r in range(min(max_rows, 50)):  # Limit to reasonable size
+        y = row0 + r * row_pitch
+        if y >= img.shape[0] - 3:
+            break
         
-        # Extract bits for this line
-        line_bits = []
-        for bit_pos in range(300):  # Extract up to 300 bits
-            x = x_start + (bit_pos * spacing)
-            x_int = int(round(x))
-            
-            if x_int >= hsv.shape[1]:
+        row_bits = []
+        for c in range(min(max_cols, 100)):  # Limit columns too
+            x = col0 + c * col_pitch
+            if x >= img.shape[1] - 3:
                 break
-                
-            v_value = hsv[line_y, x_int, 2]
-            bit = '1' if v_value > threshold else '0'
-            line_bits.append(bit)
+            
+            # Sample 5x5 region
+            region = img[max(0, y-2):min(img.shape[0], y+3), 
+                        max(0, x-2):min(img.shape[1], x+3)]
+            
+            if region.size > 0:
+                val = np.median(region)
+                bit = '1' if val > 127 else '0'
+                row_bits.append(bit)
         
-        line_bit_string = ''.join(line_bits)
-        
-        # Decode as ASCII
-        line_chars = []
-        for i in range(0, len(line_bit_string), 8):
-            if i + 8 <= len(line_bit_string):
-                byte = line_bit_string[i:i+8]
-                try:
-                    char_val = int(byte, 2)
-                    if 32 <= char_val <= 126:
-                        line_chars.append(chr(char_val))
-                    else:
-                        line_chars.append(f'[{char_val}]')
-                except:
-                    line_chars.append('?')
-        
-        line_text = ''.join(line_chars)
-        print(f"Line {line_offset + 4} text: {line_text}")
-        
-        lines.append({'y': line_y, 'text': line_text, 'bits': line_bit_string})
+        message_rows.append(row_bits)
     
-    # Sort lines by y position
-    lines.sort(key=lambda x: x['y'])
+    print(f"Extracted: {len(message_rows)} rows")
     
-    # Save complete results
-    with open('complete_hidden_message_final.txt', 'w') as f:
-        f.write("=== COMPLETE HIDDEN MESSAGE EXTRACTION ===\n")
-        f.write(f"Optimized parameters: y={y}, x_start={x_start}, spacing={spacing}, threshold={threshold}\n")
-        f.write(f"Total lines extracted: {len(lines)}\n\n")
-        
-        for i, line in enumerate(lines):
-            f.write(f"Line {i+1} (y={line['y']}):\n")
-            f.write(f"  Text: {line['text']}\n")
-            f.write(f"  Bits: {line['bits'][:80]}...\n\n")
-        
-        # Concatenate all readable text
-        all_text = ' '.join([line['text'] for line in lines])
-        f.write(f"=== CONCATENATED MESSAGE ===\n")
-        f.write(f"{all_text}\n")
-        
+    # Decode each row
+    decoded_rows = []
+    for i, row_bits in enumerate(message_rows):
+        if len(row_bits) >= 8:  # At least one character
+            decoded = decode_bits(row_bits)
+            decoded_rows.append(decoded)
+            
+            if i < 10:  # Show first 10 rows
+                print(f"Row {i:2d}: {decoded[:40]}")
+    
+    # Look for readable content
+    readable_lines = []
+    for i, decoded in enumerate(decoded_rows):
         # Count readable characters
-        readable_chars = sum(len([c for c in line['text'] if c.isalnum() or c.isspace()]) for line in lines)
-        f.write(f"\nTotal readable characters: {readable_chars}\n")
+        readable_chars = sum(1 for c in decoded 
+                           if c.isalnum() or c.isspace() or c in '.,!?-')
+        
+        if len(decoded) > 0 and readable_chars / len(decoded) > 0.3:
+            readable_lines.append(f"Row {i}: {decoded}")
     
-    print(f"\nExtracted {len(lines)} lines total")
-    print("Results saved to complete_hidden_message_final.txt")
-    
-    # Show concatenated message
-    all_text = ' '.join([line['text'] for line in lines])
-    print(f"\nConcatenated message: {all_text}")
-    
-    # Check if we can see "On the winter" or similar
-    if any(word in all_text.lower() for word in ['on', 'winter', 'the']):
-        print("SUCCESS: Found expected words in extracted text!")
+    if readable_lines:
+        print(f"\n=== READABLE CONTENT FOUND ===")
+        for line in readable_lines[:10]:
+            print(line)
     else:
-        print("Note: Expected words not clearly visible, may need further calibration")
+        print(f"\n=== NO CLEARLY READABLE CONTENT ===")
     
-    return lines
+    # Save results
+    results = {
+        'method': 'final_comprehensive_extraction',
+        'configuration': {
+            'row_pitch': int(row_pitch),
+            'col_pitch': int(col_pitch),
+            'origin': [int(row0), int(col0)]
+        },
+        'grid_size': [len(message_rows), len(message_rows[0]) if message_rows else 0],
+        'decoded_rows': decoded_rows[:20],  # Limit size
+        'readable_lines': readable_lines[:10]
+    }
+    
+    with open('FINAL_EXTRACTION_RESULTS.json', 'w') as f:
+        json.dump(results, f, indent=2)
+    
+    print(f"\nResults saved to FINAL_EXTRACTION_RESULTS.json")
+    
+    return results
 
 if __name__ == "__main__":
-    extract_complete_message()
+    print("Final Message Extraction Attempt")
+    print("Post-pitch-debate comprehensive approach")
+    print("="*60)
+    
+    try:
+        result = final_message_extraction()
+        
+        if result and result['readable_lines']:
+            print(f"\nSUCCESS: Found readable content!")
+        else:
+            print(f"\nChallenge remains: Grid alignment needs further refinement")
+            
+    except Exception as e:
+        print(f"Error: {e}")

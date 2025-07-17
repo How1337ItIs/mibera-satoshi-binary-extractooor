@@ -1,0 +1,13 @@
+{
+  "audit_timestamp": "2024-01-17",
+  "autocorrelation_analysis": {
+    "strongest_peak": 12,
+    "peak_strength": 51250.27162197415
+  },
+  "extraction_configs_tested": 4,
+  "extraction_results": {
+    "Previous claim": {
+      "ones_ratio": 0.29,
+      "entropy": 0.8687212463394045,
+      "bias_warning": false,
+      "low_entropy_warning": 

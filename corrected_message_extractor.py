@@ -2,6 +2,10 @@
 """
 Corrected message extractor - trying different bit interpretations
 to match the expected "On the..." pattern.
+
+Created by: Cursor Agent
+Purpose: Test different bit interpretations to find correct extraction method
+Date: 2025-07-17
 """
 
 import cv2

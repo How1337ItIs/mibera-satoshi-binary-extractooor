@@ -2,6 +2,10 @@
 """
 Grid pattern tester - systematically test different grid reading patterns
 to match the user's manual extraction results.
+
+Created by: Cursor Agent
+Purpose: Test different grid reading patterns to match manual extraction
+Date: 2025-07-17
 """
 
 import cv2

@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-07-17",
+  "analysis_type": "manual_calibration",
+  "manual_extraction": {
+    "decoded_lines": [
+      "ecember 21 2",
+      "N[204]@[232][208][202]A[221][165][186][140]",
+      "r [230][222][216][230][232][210][198][202]@",
+      "ecember 21 2",
+      "022 whR[216][230][232]@",
+      "eep in the f"
+    ],
+    "full_message": "ecember 21 2 N[204]@[232][208][202]A[221][165][186][140] r [230][222][216][230][232][210][198][202]@ ecember 21 2 022 whR[216][230][232]@ eep in the f",
+    "total_chars": 150
+  },
+  "reverse_engineering": {
+    "matches_found": 1,
+    "best_match_ratio": 0.7083333333333334,
+    "calibrated_config": {
+      "row_pitch": 30,
+      "col_pitch": 45,
+      "start_row": 17,
+      "start_col": 20,
+      "match_ratio": 0.7083333333333334,
+      "matches": 68,
+      "extracted_bits": "001000000110000000100000011000000010001000101010001000100010000000100000000000000000000000000000",
+      "threshold": 50
+    }
+  },
+  "validation": {
+    "extracted_text": " ` `\"*\"  ????????????'?7??/''????????????'/????/???????",
+    "printable_ratio": 0.3090909090909091,
+    "ones_ratio": 0.3477272727272727
+  },
+  "assessment": "Manual bit extraction used to calibrate grid detection parameters"
+}

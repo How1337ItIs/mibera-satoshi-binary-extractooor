@@ -1,0 +1,48 @@
+{
+  "timestamp": "2024-01-17",
+  "analysis_type": "alternative_grid_analysis",
+  "verification_failures_addressed": [
+    "28.9% ones ratio bias",
+    "Pattern artifacts on shuffled data",
+    "Cannot extract 9 leading zeros hash",
+    "Low entropy suggests systematic bias"
+  ],
+  "grid_offset_variations": {
+    "total_tested": 121,
+    "best_by_entropy": {
+      "row_offset": 4,
+      "col_offset": -2,
+      "ones_ratio": 0.4921875,
+      "entropy": 0.9998238825988728,
+      "bits_extracted": 128
+    },
+    "best_by_balance": {
+      "row_offset": 4,
+      "col_offset": -2,
+      "ones_ratio": 0.4921875,
+      "entropy": 0.9998238825988728,
+      "bits_extracted": 128
+    }
+  },
+  "threshold_optimization": {
+    "range_tested": "40-115",
+    "best_entropy_threshold": 45,
+    "best_balance_threshold": 45
+  },
+  "extraction_methods": {
+    "methods_tested": 20,
+    "best_method": "Single pixel_t60"
+  },
+  "comprehensive_search": {
+    "balanced_configs_found": 118,
+    "best_config": {
+      "row0": 110,
+      "col0": 56,
+      "row_pitch": 30,
+      "col_pitch": 52,
+      "ones_ratio": 0.484375,
+      "entropy": 0.9992954443621549
+    }
+  },
+  "conclusion": "Multiple alternative approaches tested to address verification failures"
+}

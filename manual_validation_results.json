@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-07-17",
+  "analysis_type": "manual_validation_approach",
+  "target_text": "On the winter solstice December 21",
+  "configurations_tested": 5,
+  "best_match": {
+    "config": [
+      31,
+      53,
+      101,
+      53,
+      72
+    ],
+    "match_ratio": 0.0,
+    "extracted_text": "???????????s;;?????????????????????"
+  },
+  "complete_extraction": null,
+  "assessment": "Validation against known text to establish reliable extraction method"
+}

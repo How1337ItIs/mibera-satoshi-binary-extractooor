@@ -10,7 +10,21 @@
       "Bash(pip install:*)",
       "Bash(git add:*)",
       "Bash(mkdir:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(touch:*)",
+      "WebFetch(domain:opensea.io)",
+      "WebFetch(domain:ipfs.io)",
+      "WebFetch(domain:berascan.com)",
+      "WebFetch(domain:d163aeqznbc6js.cloudfront.net)",
+      "Bash(curl:*)",
+      "Bash(move BREAKTHROUGH_DISCOVERY.md archived_misleading_docs )",
+      "Bash(move BREAKTHROUGH_SUMMARY.txt archived_misleading_docs )",
+      "Bash(move CLAUDE_COMPREHENSIVE_BREAKTHROUGH_RESULTS.txt archived_misleading_docs )",
+      "Bash(move FINAL_BREAKTHROUGH_REPORT.txt archived_misleading_docs )",
+      "Bash(move MISSION_ACCOMPLISHED.md archived_misleading_docs )",
+      "Bash(move PROJECT_STATUS_UNFUCKED.md archived_misleading_docs )",
+      "Bash(move EXTRAORDINARY_FINDINGS_SUMMARY.md archived_misleading_docs)"
     ],
     "deny": []
   }

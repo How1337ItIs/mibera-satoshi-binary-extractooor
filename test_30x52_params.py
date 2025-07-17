@@ -2,6 +2,10 @@
 """
 Test the claimed good parameters: 30x52 pitch, position (110,56), threshold 45
 Compare with scale-aware results for validation.
+
+Created by: Cursor Agent
+Purpose: Test claimed good parameters vs scale-aware method
+Date: 2025-07-17
 """
 
 import cv2
